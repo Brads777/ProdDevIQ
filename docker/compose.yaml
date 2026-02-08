@@ -1,5 +1,6 @@
 # GODMODEDEV Docker Compose
 # Run: docker compose -f docker/compose.yaml up -d
+# Run with shadcn: docker compose -f docker/compose.yaml --profile shadcn up -d
 
 services:
   dev:
@@ -15,3 +16,38 @@ services:
     working_dir: /workspace
     stdin_open: true
     tty: true
+
+  shadcn:
+    profiles: ["shadcn"]
+    build:
+      context: .
+      dockerfile: Dockerfile.shadcn
+    ports:
+      - "3333:3000"
+    volumes:
+      - shadcn-workspace:/app
+      - shadcn-node-modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - NEXT_TELEMETRY_DISABLED=1
+    stdin_open: true
+    tty: true
+
+  shadcn-project:
+    profiles: ["shadcn-project"]
+    build:
+      context: .
+      dockerfile: Dockerfile.shadcn
+    ports:
+      - "3333:3000"
+    volumes:
+      - ${SHADCN_PROJECT_PATH:-./../shadcn-project}:/app
+    environment:
+      - NODE_ENV=development
+      - NEXT_TELEMETRY_DISABLED=1
+    stdin_open: true
+    tty: true
+
+volumes:
+  shadcn-workspace:
+  shadcn-node-modules:

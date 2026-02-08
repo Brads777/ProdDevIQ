@@ -8,11 +8,11 @@
 #   - Use /skills-import <name> to install from this registry
 #   - Use /skills-advisor "<task>" to find the right skill
 #
-# Updated: 2026-02-07 23:20
+# Updated: 2026-02-08 00:45
 
 catalog_version: "1.0"
 catalog_source: "IDETOOLS/catalog.md"
-total_skills: 364
+total_skills: 376
 total_agents: 139
 
 # ============================================================
@@ -2234,6 +2234,79 @@ skills:
     category: testing
     description: "Use when creating new skills, editing existing skills, or verifying skills work before deployment - applies TDD to process documentation by testing with subagents before writing, iterating until bulletproof against rationalization"
     source: IDETOOLS/skills/obra-writing-skills
+
+  # --- godmodedev-new (11) --- Added 2026-02-08
+  - name: design-os
+    type: skill
+    category: ai-llm
+    description: "Spec-Driven Development (SDD) workflow based on Design OS by Brian Casel. 4-phase, 7-step process for going from product idea to implementation-ready specs."
+    source: IDETOOLS/skills/design-os
+
+  - name: agent-os
+    type: skill
+    category: ai-llm
+    description: "Implementation workflow companion to Design OS. Takes spec-driven designs and scaffolds implementation with AI agents."
+    source: IDETOOLS/skills/agent-os
+
+  - name: openclaw-autonomous
+    type: skill
+    category: ai-llm
+    description: "Autonomous execution framework inspired by OpenClaw (164K+ stars). Task decomposition, self-correction loops, progress checkpointing, and multi-session resumption."
+    source: IDETOOLS/skills/openclaw-autonomous
+
+  - name: ecc-patterns
+    type: skill
+    category: ai-llm
+    description: "Engineered Compound Cognition methodology. Every task compounds into future efficiency via instinct accumulation, context architecture, and systematic knowledge capture."
+    source: IDETOOLS/skills/ecc-patterns
+
+  - name: instinct-learning
+    type: skill
+    category: ai-llm
+    description: "Continuous learning skill that extracts successful patterns from completed work into reusable instincts. Based on ECC /learn pattern."
+    source: IDETOOLS/skills/instinct-learning
+
+  - name: emotion-humanizer
+    type: skill
+    category: ai-llm
+    description: "Affective intelligence for AI agent outputs. Adjusts tone, empathy, and communication style to make responses more human and contextually appropriate."
+    source: IDETOOLS/skills/emotion-humanizer
+
+  - name: hume-emotion-ai
+    type: skill
+    category: ai-llm
+    description: "Hume AI integration for emotion-aware agent responses. Empathic Voice Interface, expression measurement, and affective computing patterns."
+    source: IDETOOLS/skills/hume-emotion-ai
+
+  - name: engram-memory
+    type: skill
+    category: ai-llm
+    description: "Bitemporal graph memory for AI coding agents. Captures reasoning traces into a knowledge graph with temporal history. Based on rawcontext/engram."
+    source: IDETOOLS/skills/engram-memory
+
+  - name: chartgpu
+    type: skill
+    category: frontend-design
+    description: "WebGPU-accelerated charting library rendering 1M+ data points at 60fps. Drop-in for Chart.js/D3 when dealing with large datasets."
+    source: IDETOOLS/skills/chartgpu
+
+  - name: nanobot-mcp
+    type: skill
+    category: ai-llm
+    description: "Turn any MCP server into a full-featured AI agent. Standalone MCP host with reasoning, system prompts, and tool orchestration. Based on nanobot.ai."
+    source: IDETOOLS/skills/nanobot-mcp
+
+  - name: privacy-com-integration
+    type: skill
+    category: payment-commerce
+    description: "Privacy.com virtual card API integration. Create, manage, and monitor virtual payment cards for SaaS subscriptions, testing, and automated purchasing."
+    source: IDETOOLS/skills/privacy-com-integration
+
+  - name: shadcn-ui
+    type: skill
+    category: frontend-design
+    description: "shadcn/ui component library patterns for Next.js and React. Installation, customization, theming, Docker dev environment, and best practices with Radix UI + Tailwind CSS."
+    source: IDETOOLS/skills/shadcn-ui
 
 
 # ============================================================
