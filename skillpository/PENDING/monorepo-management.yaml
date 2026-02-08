@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "monorepo-management"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/developer-essentials/skills/monorepo-management/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/monorepo-management"
+description: "Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monorepos, optimizing builds, or managing shared dependencies."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

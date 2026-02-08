@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-v3-integration-architect"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-v3-integration-architect/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-v3-integration-architect"
+description: "Agent skill for v3-integration-architect - invoke with $agent-v3-integration-architect"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

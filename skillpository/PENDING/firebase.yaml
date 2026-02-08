@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "firebase"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/firebase/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/firebase"
+description: "Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting. But the ease of setup hides real complexity. Security rules are your last line of defense, and they're often wrong. Firestore queries are limited, and you learn this after you've designed your data model.  This skill covers Firebase Authentication, Firestore, Realtime Database, Cloud Functions, Cloud Storage, and Firebase Hosting. Key insight: Firebase is optimized for read-heavy, denormalized data. I"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

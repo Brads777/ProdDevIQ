@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "cellxgene-census"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/cellxgene-census/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/cellxgene-census"
+description: "Query CZ CELLxGENE Census (61M+ cells). Filter by cell type/tissue/disease, retrieve expression data, integrate with scanpy/PyTorch, for population-scale single-cell analysis."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

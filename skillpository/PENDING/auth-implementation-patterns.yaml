@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "auth-implementation-patterns"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/auth-implementation-patterns"
+description: "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

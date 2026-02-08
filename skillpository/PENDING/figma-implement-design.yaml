@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "figma-implement-design"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/creative-design/figma-implement-design/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/figma-implement-design"
+description: "Translate Figma nodes into production-ready code with 1:1 visual fidelity using the Figma MCP workflow (design context, screenshots, assets, and project-convention translation). Trigger when the user provides Figma URLs or node IDs, or asks to implement designs or components that must match Figma specs. Requires a working Figma MCP server connection."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

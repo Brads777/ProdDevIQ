@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ml-engineer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/machine-learning-ops/agents/ml-engineer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops/agents/ml-engineer.md"
+description: "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. Use PROACTIVELY for ML model deployment, inference optimization, or production ML infrastructure."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

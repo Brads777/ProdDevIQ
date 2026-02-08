@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "inference-serving-vllm"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/inference-serving-vllm/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/inference-serving-vllm"
+description: "Serves LLMs with high throughput using vLLM's PagedAttention and continuous batching. Use when deploying production LLM APIs, optimizing inference latency/throughput, or serving models with limited GPU memory. Supports OpenAI-compatible endpoints, quantization (GPTQ/AWQ/FP8), and tensor parallelism."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

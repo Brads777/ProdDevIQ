@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "roier-seo"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/web-development/roier-seo/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/web-development/roier-seo"
+description: "Technical SEO auditor and fixer. Runs Lighthouse/PageSpeed audits on websites or local dev servers, analyzes SEO/performance/accessibility scores, and automatically implements fixes for meta tags, structured data, Core Web Vitals, and accessibility issues."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

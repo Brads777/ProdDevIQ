@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "mtls-configuration"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/cloud-infrastructure/skills/mtls-configuration/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/mtls-configuration"
+description: "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

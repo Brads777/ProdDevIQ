@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "clinicaltrials-database"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/clinicaltrials-database/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/clinicaltrials-database"
+description: "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

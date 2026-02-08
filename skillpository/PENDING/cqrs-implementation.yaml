@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "cqrs-implementation"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/backend-development/skills/cqrs-implementation/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/cqrs-implementation"
+description: "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

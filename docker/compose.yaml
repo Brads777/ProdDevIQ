@@ -1,0 +1,17 @@
+# GODMODEDEV Docker Compose
+# Run: docker compose -f docker/compose.yaml up -d
+
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/workspace
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+    working_dir: /workspace
+    stdin_open: true
+    tty: true

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "workflow-patterns"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/conductor/skills/workflow-patterns/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/conductor/skills/workflow-patterns"
+description: "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

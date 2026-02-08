@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "html-injection-testing"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/security/html-injection-testing/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/security/html-injection-testing"
+description: "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

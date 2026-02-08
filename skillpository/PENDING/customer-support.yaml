@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "customer-support"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/customer-sales-automation/agents/customer-support.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/customer-sales-automation/agents/customer-support.md"
+description: "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive customer experience management."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

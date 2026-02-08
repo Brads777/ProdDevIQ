@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "skill-creator"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/skill-creator/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/skill-creator"
+description: "Create or update Claude skills. Use for new skills, skill references, skill scripts, optimizing existing skills, extending Claude's capabilities."
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

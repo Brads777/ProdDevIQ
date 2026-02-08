@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "stream-chain"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/stream-chain/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/stream-chain"
+description: "Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

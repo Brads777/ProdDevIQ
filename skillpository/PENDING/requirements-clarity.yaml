@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "requirements-clarity"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/productivity/requirements-clarity/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/requirements-clarity"
+description: "Clarify ambiguous requirements through focused dialogue before implementation. Use when requirements are unclear, features are complex (>2 days), or involve cross-team coordination. Ask two core questions - Why? (YAGNI check) and Simpler? (KISS check) - to ensure clarity before coding."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

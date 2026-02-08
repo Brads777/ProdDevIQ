@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "service-mesh-expert"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/cloud-infrastructure/agents/service-mesh-expert.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/service-mesh-expert.md"
+description: ""
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

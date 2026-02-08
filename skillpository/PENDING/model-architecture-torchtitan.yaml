@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "model-architecture-torchtitan"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/model-architecture-torchtitan/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/model-architecture-torchtitan"
+description: "Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP). Use when pretraining Llama 3.1, DeepSeek V3, or custom models at scale from 8 to 512+ GPUs with Float8, torch.compile, and distributed checkpointing."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

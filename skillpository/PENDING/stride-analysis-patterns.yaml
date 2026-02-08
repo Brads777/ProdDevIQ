@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "stride-analysis-patterns"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/security-scanning/skills/stride-analysis-patterns/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/security-scanning/skills/stride-analysis-patterns"
+description: "Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

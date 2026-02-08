@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "google-adk-python"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/google-adk-python/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/google-adk-python"
+description: ""
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

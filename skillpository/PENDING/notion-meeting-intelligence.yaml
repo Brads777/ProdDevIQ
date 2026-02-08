@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "notion-meeting-intelligence"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/productivity/notion-meeting-intelligence/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/notion-meeting-intelligence"
+description: "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

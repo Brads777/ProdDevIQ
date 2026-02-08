@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "linear"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/productivity/linear/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/linear"
+description: "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

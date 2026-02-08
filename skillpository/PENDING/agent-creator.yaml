@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-creator"
+type: agent
+source_repo: "anthropics/claude-code"
+source_path: "plugins/plugin-dev/agents/agent-creator.md"
+source_url: "https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/agents/agent-creator.md"
+description: "Use this agent when the user asks to \"create an agent\", \"generate an agent\", \"build a new agent\", \"make me an agent that...\", or describes agent functionality they need. Trigger when user wants to create autonomous agents for plugins. Examples:"
+discovered: "2026-02-07 22:26"
+label: "Anthropic Official"
+status: pending

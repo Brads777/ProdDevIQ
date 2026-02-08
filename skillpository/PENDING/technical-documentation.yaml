@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "technical-documentation"
+type: skill
+source_repo: "spitoglou/fabric-claude-skills"
+source_path: "skills/technical-documentation/SKILL.md"
+source_url: "https://github.com/spitoglou/fabric-claude-skills/tree/master/skills/technical-documentation"
+description: "Create and improve technical documentation including architecture designs, PRDs, API docs, code explanations, and visual diagrams. Use when asked to document systems, explain codebases, create design documents, write PRDs, generate Mermaid/PlantUML diagrams, review architecture, write user stories, or create pull request descriptions. Triggers include \"document this\", \"create a design doc\", \"explain this code\", \"write a PRD\", \"create a diagram\", \"architecture overview\", \"user story for\", \"PR description\"."
+discovered: "2026-02-07 22:29"
+label: "Fabric Claude Skills"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "claude-opus-4-5-migration"
+type: skill
+source_repo: "anthropics/claude-code"
+source_path: "plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md"
+source_url: "https://github.com/anthropics/claude-code/tree/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration"
+description: "Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences. Does NOT migrate Haiku 4.5."
+discovered: "2026-02-07 22:26"
+label: "Anthropic Official"
+status: pending

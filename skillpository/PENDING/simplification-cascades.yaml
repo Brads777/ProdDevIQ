@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "simplification-cascades"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/problem-solving/simplification-cascades/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/problem-solving/simplification-cascades"
+description: "Find one insight that eliminates multiple components - \"if this is true, we don't need X, Y, or Z"
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

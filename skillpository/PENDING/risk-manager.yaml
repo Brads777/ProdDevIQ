@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "risk-manager"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/quantitative-trading/agents/risk-manager.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/quantitative-trading/agents/risk-manager.md"
+description: "Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses. Use PROACTIVELY for risk assessment, trade tracking, or portfolio protection."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

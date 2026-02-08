@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "temporal-python-testing"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/backend-development/skills/temporal-python-testing/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/temporal-python-testing"
+description: "Test Temporal workflows with pytest, time-skipping, and mocking strategies. Covers unit testing, integration testing, replay testing, and local development setup. Use when implementing Temporal workflow tests or debugging test failures."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "nextjs-supabase-auth"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/nextjs-supabase-auth/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/nextjs-supabase-auth"
+description: "Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-github-modes"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-github-modes/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-github-modes"
+description: "Agent skill for github-modes - invoke with $agent-github-modes"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

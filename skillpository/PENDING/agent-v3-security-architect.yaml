@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-v3-security-architect"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-v3-security-architect/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-v3-security-architect"
+description: "Agent skill for v3-security-architect - invoke with $agent-v3-security-architect"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

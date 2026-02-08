@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "component-migrator"
+type: agent
+source_repo: "davila7/claude-code-templates"
+source_path: ".claude/agents/component-migrator.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/.claude/agents/component-migrator.md"
+description: "Migrates components (agents, commands, skills, hooks, settings, MCPs) from external GitHub repositories to claude-code-templates, validates them with component-reviewer, and regenerates the catalog"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

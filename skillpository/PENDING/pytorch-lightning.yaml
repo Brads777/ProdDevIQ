@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "pytorch-lightning"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/pytorch-lightning/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/pytorch-lightning"
+description: "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

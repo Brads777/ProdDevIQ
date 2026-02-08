@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "react-patterns"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/react-patterns/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/react-patterns"
+description: "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

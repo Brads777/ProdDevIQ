@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "launch-strategy"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/business-marketing/launch-strategy/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/launch-strategy"
+description: "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

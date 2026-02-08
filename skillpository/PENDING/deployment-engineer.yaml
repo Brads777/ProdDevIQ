@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "deployment-engineer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/cicd-automation/agents/deployment-engineer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/deployment-engineer.md"
+description: ""
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

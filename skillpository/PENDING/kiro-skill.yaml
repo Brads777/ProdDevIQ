@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "kiro-skill"
+type: skill
+source_repo: "feiskyer/claude-code-settings"
+source_path: "plugins/kiro-skill/skills/kiro-skill/SKILL.md"
+source_url: "https://github.com/feiskyer/claude-code-settings/tree/main/plugins/kiro-skill/skills/kiro-skill"
+description: "Interactive feature development workflow from idea to implementation. Creates requirements (EARS format), design documents, and task lists. Triggers: \"kiro\", \".kiro/specs/\", \"feature spec\", \"需求文档\", \"设计文档\", \"实现计划\"."
+discovered: "2026-02-07 22:29"
+label: "Feiskyer Settings"
+status: pending

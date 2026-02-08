@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "latchbio-integration"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/latchbio-integration/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/latchbio-integration"
+description: "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

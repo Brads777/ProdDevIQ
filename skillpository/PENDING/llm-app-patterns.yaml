@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "llm-app-patterns"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/llm-app-patterns/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/llm-app-patterns"
+description: "Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

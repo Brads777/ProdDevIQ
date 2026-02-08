@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "python-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/python-development/agents/python-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/python-development/agents/python-pro.md"
+description: "Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI. Use PROACTIVELY for Python development, optimization, or advanced Python patterns."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

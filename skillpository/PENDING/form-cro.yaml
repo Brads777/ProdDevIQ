@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "form-cro"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/business-marketing/form-cro/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/form-cro"
+description: "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" or \"contact form.\" For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

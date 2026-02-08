@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agents-autogpt"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/agents-autogpt/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/agents-autogpt"
+description: "Autonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

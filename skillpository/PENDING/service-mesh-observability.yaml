@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "service-mesh-observability"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/cloud-infrastructure/skills/service-mesh-observability/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/service-mesh-observability"
+description: "Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debugging latency issues, or implementing SLOs for service communication."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

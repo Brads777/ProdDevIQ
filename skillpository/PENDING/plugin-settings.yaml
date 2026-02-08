@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "plugin-settings"
+type: skill
+source_repo: "anthropics/claude-code"
+source_path: "plugins/plugin-dev/skills/plugin-settings/SKILL.md"
+source_url: "https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/plugin-settings"
+description: "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin-name.local.md pattern for storing plugin-specific configuration with YAML frontmatter and markdown content."
+discovered: "2026-02-07 22:26"
+label: "Anthropic Official"
+status: pending

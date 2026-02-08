@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "rag-sentence-transformers"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/rag-sentence-transformers/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/rag-sentence-transformers"
+description: "Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, and multimodal models. Use for generating embeddings for RAG, semantic search, or similarity tasks. Best for production embedding generation."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

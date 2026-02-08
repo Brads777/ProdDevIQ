@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "i18n-localization"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/i18n-localization/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/i18n-localization"
+description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

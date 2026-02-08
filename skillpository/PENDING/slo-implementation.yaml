@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "slo-implementation"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/observability-monitoring/skills/slo-implementation/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/slo-implementation"
+description: "Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

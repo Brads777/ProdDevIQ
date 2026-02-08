@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "prometheus-configuration"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/observability-monitoring/skills/prometheus-configuration/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/prometheus-configuration"
+description: "Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or configuring alerting systems."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "behavioral-modes"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/behavioral-modes/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/behavioral-modes"
+description: "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

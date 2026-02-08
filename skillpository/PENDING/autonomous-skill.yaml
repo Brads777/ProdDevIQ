@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "autonomous-skill"
+type: skill
+source_repo: "feiskyer/claude-code-settings"
+source_path: "plugins/autonomous-skill/skills/autonomous-skill/SKILL.md"
+source_url: "https://github.com/feiskyer/claude-code-settings/tree/main/plugins/autonomous-skill/skills/autonomous-skill"
+description: "Use when user wants to execute long-running tasks that require multiple sessions to complete. This skill manages task decomposition, progress tracking, and autonomous execution using Claude Code headless mode with auto-continuation. Trigger phrases: \"autonomous\", \"long-running task\", \"multi-session\", \"自主执行\", \"长时任务\", \"autonomous skill\"."
+discovered: "2026-02-07 22:29"
+label: "Feiskyer Settings"
+status: pending

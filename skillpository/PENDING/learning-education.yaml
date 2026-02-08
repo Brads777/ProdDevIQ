@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "learning-education"
+type: skill
+source_repo: "spitoglou/fabric-claude-skills"
+source_path: "skills/learning-education/SKILL.md"
+source_url: "https://github.com/spitoglou/fabric-claude-skills/tree/master/skills/learning-education"
+description: "Create learning materials, explain concepts, generate quizzes and study aids. Use when asked to explain topics, create tutorials, generate practice questions, make flashcards, design curricula, or help study. Triggers include \"explain this\", \"help me learn\", \"create a quiz\", \"tutorial for\", \"study guide\", \"how does X work\", \"teach me\", \"practice questions\"."
+discovered: "2026-02-07 22:29"
+label: "Fabric Claude Skills"
+status: pending

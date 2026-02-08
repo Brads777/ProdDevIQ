@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "post-training-trl-fine-tuning"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/post-training-trl-fine-tuning/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/post-training-trl-fine-tuning"
+description: "Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training. Use when need RLHF, align model with preferences, or train from human feedback. Works with HuggingFace Transformers."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

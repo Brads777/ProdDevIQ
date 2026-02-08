@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "devops-iac-engineer"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/devops-iac-engineer/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/devops-iac-engineer"
+description: "Implements infrastructure as code using Terraform, Kubernetes, and cloud platforms. Designs scalable architectures, CI/CD pipelines, and observability solutions. Provides security-first DevOps practices and site reliability engineering guidance."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

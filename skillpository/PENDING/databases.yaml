@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "databases"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/databases/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/databases"
+description: "Work with MongoDB (document database, BSON documents, aggregation pipelines, Atlas cloud) and PostgreSQL (relational database, SQL queries, psql CLI, pgAdmin). Use when designing database schemas, writing queries and aggregations, optimizing indexes for performance, performing database migrations, configuring replication and sharding, implementing backup and restore strategies, managing database users and permissions, analyzing query performance, or administering production databases."
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

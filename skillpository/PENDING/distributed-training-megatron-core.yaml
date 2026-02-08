@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "distributed-training-megatron-core"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/distributed-training-megatron-core/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/distributed-training-megatron-core"
+description: "Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies. Use when training models >1B parameters, need maximum GPU efficiency (47% MFU on H100), or require tensor/pipeline/sequence/context/expert parallelism. Production-ready framework used for Nemotron, LLaMA, DeepSeek."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

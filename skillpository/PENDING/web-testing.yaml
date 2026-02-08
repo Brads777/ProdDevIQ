@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "web-testing"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/web-testing/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/web-testing"
+description: "Web testing with Playwright, Vitest, k6. E2E/unit/integration/load/security/visual/a11y testing. Use for test automation, flakiness, Core Web Vitals, mobile gestures, cross-browser."
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

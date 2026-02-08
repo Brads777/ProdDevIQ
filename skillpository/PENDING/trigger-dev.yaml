@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "trigger-dev"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/trigger-dev/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/trigger-dev"
+description: "Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. Use when: trigger.dev, trigger dev, background task, ai background job, long running task."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "privilege-escalation-methods"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/security/privilege-escalation-methods/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/security/privilege-escalation-methods"
+description: "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "hybrid-cloud-networking"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/cloud-infrastructure/skills/hybrid-cloud-networking/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/hybrid-cloud-networking"
+description: "Configure secure, high-performance connectivity between on-premises infrastructure and cloud platforms using VPN and dedicated connections. Use when building hybrid cloud architectures, connecting data centers to cloud, or implementing secure cross-premises networking."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

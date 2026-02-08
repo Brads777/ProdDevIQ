@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "new"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/railway/new/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/railway/new"
+description: "Create Railway projects, services, and databases with proper configuration. Use when user says \"setup\", \"deploy to railway\", \"initialize\", \"create project\", \"create service\", or wants to deploy from GitHub. Handles initial setup AND adding services to existing projects. For databases, use railway-railway-database skill instead."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

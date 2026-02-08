@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -NoProfile *)",
+      "Bash(git *)",
+      "Bash(docker *)",
+      "Bash(npm *)",
+      "Read",
+      "Glob",
+      "Grep"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(format *)",
+      "Read(.env)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \"$f = $env:TOOL_INPUT_PATH; if ($f -match '\\.(ps1|psm1)$') { Write-Host 'PowerShell file modified: ' + $f }\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \"Write-Host 'Session complete'\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "emerging-techniques-knowledge-distillation"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/emerging-techniques-knowledge-distillation/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/emerging-techniques-knowledge-distillation"
+description: "Compress large language models using knowledge distillation from teacher to student models. Use when deploying smaller models with retained performance, transferring GPT-4 capabilities to open-source models, or reducing inference costs. Covers temperature scaling, soft targets, reverse KLD, logit distillation, and MiniLLM training strategies."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

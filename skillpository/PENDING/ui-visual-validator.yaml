@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ui-visual-validator"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/accessibility-compliance/agents/ui-visual-validator.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/accessibility-compliance/agents/ui-visual-validator.md"
+description: "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Masters screenshot analysis, visual regression testing, and component validation. Use PROACTIVELY to verify UI modifications have achieved their intended goals through comprehensive visual analysis."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

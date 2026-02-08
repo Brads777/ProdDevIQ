@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "team-communication-protocols"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/agent-teams/skills/team-communication-protocols/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/team-communication-protocols"
+description: "Structured messaging protocols for agent team communication including message type selection, plan approval, shutdown procedures, and anti-patterns to avoid. Use this skill when establishing team communication norms, handling plan approvals, or managing team shutdown."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

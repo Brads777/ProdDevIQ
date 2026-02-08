@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "content-creation"
+type: skill
+source_repo: "spitoglou/fabric-claude-skills"
+source_path: "skills/content-creation/SKILL.md"
+source_url: "https://github.com/spitoglou/fabric-claude-skills/tree/master/skills/content-creation"
+description: "Create newsletters, social media posts, presentations, professional emails, and other content for publication or communication. Use when asked to write newsletters, draft emails, create social posts, design presentations, or prepare content for specific audiences. Triggers include \"write a newsletter\", \"draft an email\", \"create a post\", \"social media\", \"presentation\", \"blog post\", \"LinkedIn\", \"announcement\"."
+discovered: "2026-02-07 22:29"
+label: "Fabric Claude Skills"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "python-resilience"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/python-development/skills/python-resilience/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-resilience"
+description: "Python resilience patterns including automatic retries, exponential backoff, timeouts, and fault-tolerant decorators. Use when adding retry logic, implementing timeouts, building fault-tolerant services, or handling transient failures."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "unity-developer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/game-development/agents/unity-developer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/game-development/agents/unity-developer.md"
+description: "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment. Handles gameplay systems, UI implementation, and platform optimization. Use PROACTIVELY for Unity performance issues, game mechanics, or cross-platform builds."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

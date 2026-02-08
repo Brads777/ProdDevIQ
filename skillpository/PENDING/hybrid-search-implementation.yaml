@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "hybrid-search-implementation"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/llm-application-dev/skills/hybrid-search-implementation/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/hybrid-search-implementation"
+description: "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

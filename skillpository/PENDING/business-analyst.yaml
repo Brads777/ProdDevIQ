@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "business-analyst"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/business-analytics/agents/business-analyst.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/business-analytics/agents/business-analyst.md"
+description: "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

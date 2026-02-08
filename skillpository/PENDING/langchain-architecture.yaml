@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "langchain-architecture"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/llm-application-dev/skills/langchain-architecture/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/langchain-architecture"
+description: "Design LLM applications using LangChain 1.x and LangGraph for agents, memory, and tool integration. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "php-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/web-scripting/agents/php-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/web-scripting/agents/php-pro.md"
+description: "Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

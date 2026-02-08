@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "java-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/jvm-languages/agents/java-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/jvm-languages/agents/java-pro.md"
+description: "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. Use PROACTIVELY for Java development, microservices architecture, or performance optimization."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

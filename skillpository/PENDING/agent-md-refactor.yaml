@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-md-refactor"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/agent-md-refactor/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/agent-md-refactor"
+description: "Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to follow progressive disclosure principles. Splits monolithic files into organized, linked documentation."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

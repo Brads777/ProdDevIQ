@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "arboreto"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/arboreto/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/arboreto"
+description: "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

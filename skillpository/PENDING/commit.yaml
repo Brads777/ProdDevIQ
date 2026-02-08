@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "commit"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/sentry/commit/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/sentry/commit"
+description: "Create commit messages following Sentry conventions. Use when committing code changes, writing commit messages, or formatting git history. Follows conventional commits with Sentry-specific issue references."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

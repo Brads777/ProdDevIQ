@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "google-analytics"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/analytics/google-analytics/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/analytics/google-analytics"
+description: "Analyze Google Analytics data, review website performance metrics, identify traffic patterns, and suggest data-driven improvements. Use when the user asks about analytics, website metrics, traffic analysis, conversion rates, user behavior, or performance optimization."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

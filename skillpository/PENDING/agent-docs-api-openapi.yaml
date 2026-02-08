@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-docs-api-openapi"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-docs-api-openapi/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-docs-api-openapi"
+description: "Agent skill for docs-api-openapi - invoke with $agent-docs-api-openapi"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

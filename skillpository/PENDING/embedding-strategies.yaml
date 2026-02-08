@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "embedding-strategies"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/llm-application-dev/skills/embedding-strategies/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/embedding-strategies"
+description: "Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

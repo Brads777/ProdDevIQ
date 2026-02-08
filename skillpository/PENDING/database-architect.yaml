@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "database-architect"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/database-cloud-optimization/agents/database-architect.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/database-cloud-optimization/agents/database-architect.md"
+description: "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design. Handles both greenfield architectures and re-architecture of existing systems. Use PROACTIVELY for database architecture, technology selection, or data modeling decisions."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

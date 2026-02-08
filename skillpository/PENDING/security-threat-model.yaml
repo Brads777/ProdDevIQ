@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "security-threat-model"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/security/security-threat-model/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/security/security-threat-model"
+description: "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

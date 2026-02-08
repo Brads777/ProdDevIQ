@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "mermaid-diagram-specialist"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/mermaid-diagram-specialist/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/mermaid-diagram-specialist"
+description: "Mermaid diagram specialist for creating flowcharts, sequence diagrams, ERDs,"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

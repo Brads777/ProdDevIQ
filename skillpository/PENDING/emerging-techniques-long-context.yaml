@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "emerging-techniques-long-context"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/emerging-techniques-long-context/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/emerging-techniques-long-context"
+description: "Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques. Use when processing long documents (32k-128k+ tokens), extending pre-trained models beyond original context limits, or implementing efficient positional encodings. Covers rotary embeddings, attention biases, interpolation methods, and extrapolation strategies for LLMs."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

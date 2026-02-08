@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "data-engineer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/data-engineering/agents/data-engineer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/data-engineering/agents/data-engineer.md"
+description: "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. Use PROACTIVELY for data pipeline design, analytics infrastructure, or modern data stack implementation."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

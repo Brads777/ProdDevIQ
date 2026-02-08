@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "prompt-engineering-outlines"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/prompt-engineering-outlines/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/prompt-engineering-outlines"
+description: "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

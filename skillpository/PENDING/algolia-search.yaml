@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "algolia-search"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/algolia-search/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/algolia-search"
+description: "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "windows-privilege-escalation"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/security/windows-privilege-escalation/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/security/windows-privilege-escalation"
+description: "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

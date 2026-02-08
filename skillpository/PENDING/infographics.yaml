@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "infographics"
+type: skill
+source_repo: "K-Dense-AI/claude-scientific-skills"
+source_path: "scientific-skills/infographics/SKILL.md"
+source_url: "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/infographics"
+description: "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes."
+discovered: "2026-02-07 22:29"
+label: "KDense Scientific"
+status: pending

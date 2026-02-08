@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "broken-authentication"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/security/broken-authentication/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/security/broken-authentication"
+description: "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

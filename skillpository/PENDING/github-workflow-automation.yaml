@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "github-workflow-automation"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/github-workflow-automation/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/github-workflow-automation"
+description: "Advanced GitHub Actions workflow automation with AI swarm coordination, intelligent CI/CD pipelines, and comprehensive repository management"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

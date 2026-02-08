@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ui-engineer"
+type: agent
+source_repo: "feiskyer/claude-code-settings"
+source_path: "agents/ui-engineer.md"
+source_url: "https://github.com/feiskyer/claude-code-settings/tree/main/agents/ui-engineer.md"
+description: "Expert UI/frontend developer for creating, modifying, or reviewing frontend code, UI components, and user interfaces. Use when building React components, responsive designs, or any frontend development tasks. PROACTIVELY use for UI/UX implementation, component architecture, and frontend best practices."
+discovered: "2026-02-07 22:29"
+label: "Feiskyer Settings"
+status: pending

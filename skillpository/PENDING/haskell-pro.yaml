@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "haskell-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/functional-programming/agents/haskell-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/functional-programming/agents/haskell-pro.md"
+description: "Expert Haskell engineer specializing in advanced type systems, pure functional design, and high-reliability software. Use PROACTIVELY for type-level programming, concurrency, and architecture guidance."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

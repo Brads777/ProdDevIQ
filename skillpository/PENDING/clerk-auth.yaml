@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "clerk-auth"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/clerk-auth/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/clerk-auth"
+description: "Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

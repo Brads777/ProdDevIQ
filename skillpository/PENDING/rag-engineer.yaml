@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "rag-engineer"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/rag-engineer/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/rag-engineer"
+description: "Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, vector search, embeddings, semantic search, document retrieval."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

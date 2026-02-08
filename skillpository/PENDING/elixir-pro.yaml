@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "elixir-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/functional-programming/agents/elixir-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/functional-programming/agents/elixir-pro.md"
+description: "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems. Use PROACTIVELY for Elixir refactoring, OTP design, or complex BEAM optimizations."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "post-training-torchforge"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/post-training-torchforge/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/post-training-torchforge"
+description: "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Monarch and TorchTitan."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "browser"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: "v3/@claude-flow/browser/skills/browser/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/v3/@claude-flow/browser/skills/browser"
+description: "Web browser automation with AI-optimized snapshots for claude-flow agents"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

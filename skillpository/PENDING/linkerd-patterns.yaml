@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "linkerd-patterns"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/cloud-infrastructure/skills/linkerd-patterns/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/linkerd-patterns"
+description: "Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking with minimal overhead."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

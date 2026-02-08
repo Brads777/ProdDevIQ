@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "python-patterns"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/python-patterns/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/python-patterns"
+description: "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

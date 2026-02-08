@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "bullmq-specialist"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/bullmq-specialist/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/bullmq-specialist"
+description: "BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

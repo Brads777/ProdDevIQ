@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "prompt-engineer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/llm-application-dev/agents/prompt-engineer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/agents/prompt-engineer.md"
+description: "Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

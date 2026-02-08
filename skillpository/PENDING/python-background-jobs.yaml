@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "python-background-jobs"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/python-development/skills/python-background-jobs/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-background-jobs"
+description: "Python background job patterns including task queues, workers, and event-driven architecture. Use when implementing async task processing, job queues, long-running operations, or decoupling work from request/response cycles."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

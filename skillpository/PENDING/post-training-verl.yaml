@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "post-training-verl"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/post-training-verl/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/post-training-verl"
+description: "Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL). Use when implementing RLHF, GRPO, PPO, or other RL algorithms for LLM post-training at scale with flexible infrastructure backends."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

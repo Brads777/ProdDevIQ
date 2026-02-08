@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "regulatory-affairs-head"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/enterprise-communication/regulatory-affairs-head/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/regulatory-affairs-head"
+description: "Senior Regulatory Affairs Manager expertise for HealthTech and MedTech companies. Provides strategic regulatory guidance, submission management, regulatory pathway analysis, global compliance coordination, and cross-functional team leadership. Use for regulatory strategy development, submission planning, regulatory risk assessment, and team coordination activities."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "create-pr"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/sentry/create-pr/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/sentry/create-pr"
+description: "Create pull requests following Sentry conventions. Use when opening PRs, writing PR descriptions, or preparing changes for review. Follows Sentry's code review guidelines."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

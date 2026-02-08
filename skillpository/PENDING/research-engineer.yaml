@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "research-engineer"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/research-engineer/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/research-engineer"
+description: "An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness, formal verification, and optimal implementation across any required technology."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

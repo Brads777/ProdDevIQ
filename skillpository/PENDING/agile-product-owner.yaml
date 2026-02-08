@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agile-product-owner"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/business-marketing/agile-product-owner/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/agile-product-owner"
+description: "Agile product ownership toolkit for Senior Product Owner including INVEST-compliant user story generation, sprint planning, backlog management, and velocity tracking. Use for story writing, sprint planning, stakeholder communication, and agile ceremonies."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

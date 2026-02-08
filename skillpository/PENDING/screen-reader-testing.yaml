@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "screen-reader-testing"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/accessibility-compliance/skills/screen-reader-testing"
+description: "Test web applications with screen readers including VoiceOver, NVDA, and JAWS. Use when validating screen reader compatibility, debugging accessibility issues, or ensuring assistive technology support."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "dx-optimizer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/debugging-toolkit/agents/dx-optimizer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/debugging-toolkit/agents/dx-optimizer.md"
+description: "Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

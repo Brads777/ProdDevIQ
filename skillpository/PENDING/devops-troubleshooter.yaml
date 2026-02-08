@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "devops-troubleshooter"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/cicd-automation/agents/devops-troubleshooter.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/devops-troubleshooter.md"
+description: "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis. Handles production outages, system reliability, and preventive monitoring. Use PROACTIVELY for debugging, incident response, or system troubleshooting."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

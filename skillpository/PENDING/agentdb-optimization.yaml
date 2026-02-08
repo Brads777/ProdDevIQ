@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agentdb-optimization"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agentdb-optimization/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agentdb-optimization"
+description: "Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving search speed, or scaling to millions of vectors."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

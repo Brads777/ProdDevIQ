@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-workflow-automation"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-workflow-automation/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-workflow-automation"
+description: "Agent skill for workflow-automation - invoke with $agent-workflow-automation"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "v3-security-overhaul"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/v3-security-overhaul/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/v3-security-overhaul"
+description: "Complete security architecture overhaul for claude-flow v3. Addresses critical CVEs (CVE-1, CVE-2, CVE-3) and implements secure-by-default patterns. Use for security-first v3 implementation."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "zapier-make-patterns"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/zapier-make-patterns/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/zapier-make-patterns"
+description: "No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code. But no-code doesn't mean no-complexity - these platforms have their own patterns, pitfalls, and breaking points.  This skill covers when to use which platform, how to build reliable automations, and when to graduate to code-based solutions. Key insight: Zapier optimizes for simplicity and integrations (7000+ apps), Make optimizes for power "
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

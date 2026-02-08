@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "find-bugs"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/sentry/find-bugs/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/sentry/find-bugs"
+description: "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

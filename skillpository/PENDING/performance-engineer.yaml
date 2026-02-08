@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "performance-engineer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/application-performance/agents/performance-engineer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/application-performance/agents/performance-engineer.md"
+description: "Expert performance engineer specializing in modern observability, application optimization, and scalable system performance. Masters OpenTelemetry, distributed tracing, load testing, multi-tier caching, Core Web Vitals, and performance monitoring. Handles end-to-end optimization, real user monitoring, and scalability patterns. Use PROACTIVELY for performance optimization, observability, or scalability challenges."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

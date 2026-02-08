@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "flow-nexus-neural"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/flow-nexus-neural/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/flow-nexus-neural"
+description: "Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

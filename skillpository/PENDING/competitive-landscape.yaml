@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "competitive-landscape"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/startup-business-analyst/skills/competitive-landscape/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/competitive-landscape"
+description: "This skill should be used when the user asks to \"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\", or requests competitive strategy analysis."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

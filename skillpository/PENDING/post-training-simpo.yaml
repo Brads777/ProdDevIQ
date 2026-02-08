@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "post-training-simpo"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/post-training-simpo/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/post-training-simpo"
+description: "Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference alignment when want simpler, faster training than DPO/PPO."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

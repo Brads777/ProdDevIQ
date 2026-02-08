@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "writing-plans"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/writing-plans/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/writing-plans"
+description: "Use when you have a spec or requirements for a multi-step task, before touching code"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

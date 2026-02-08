@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "mermaid-expert"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/documentation-generation/agents/mermaid-expert.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/agents/mermaid-expert.md"
+description: "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. Use PROACTIVELY for visual documentation, system diagrams, or process flows."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

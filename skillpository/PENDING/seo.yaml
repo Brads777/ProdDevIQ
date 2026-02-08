@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "seo"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/seo/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/seo"
+description: "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\"."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

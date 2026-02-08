@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-refinement"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-refinement/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-refinement"
+description: "Agent skill for refinement - invoke with $agent-refinement"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

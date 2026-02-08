@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "terraform-module-library"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/cloud-infrastructure/skills/terraform-module-library/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/terraform-module-library"
+description: "Build reusable Terraform modules for AWS, Azure, and GCP infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, or implementing reusable IaC components."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

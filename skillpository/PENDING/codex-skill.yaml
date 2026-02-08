@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "codex-skill"
+type: skill
+source_repo: "feiskyer/claude-code-settings"
+source_path: "plugins/codex-skill/skills/codex-skill/SKILL.md"
+source_url: "https://github.com/feiskyer/claude-code-settings/tree/main/plugins/codex-skill/skills/codex-skill"
+description: "Leverage OpenAI Codex/GPT models for autonomous code implementation. Triggers: \"codex\", \"use gpt\", \"gpt-5\", \"gpt-5.2\", \"let openai\", \"full-auto\", \"用codex\", \"让gpt实现\"."
+discovered: "2026-02-07 22:29"
+label: "Feiskyer Settings"
+status: pending

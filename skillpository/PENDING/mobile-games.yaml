@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "mobile-games"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/creative-design/game-development/mobile-games/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/game-development/mobile-games"
+description: "Mobile game development principles. Touch input, battery, performance, app stores."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

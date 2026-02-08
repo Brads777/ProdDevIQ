@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "frontend-to-backend-requirements"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/enterprise-communication/frontend-to-backend-requirements/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/frontend-to-backend-requirements"
+description: "Document frontend data needs for backend developers. Use when frontend needs to communicate API requirements to backend, or user says 'backend requirements', 'what data do I need', 'API requirements', or is describing data needs for a UI."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

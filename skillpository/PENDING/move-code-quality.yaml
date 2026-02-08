@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "move-code-quality"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/move-code-quality/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/move-code-quality"
+description: "Analyzes Move language packages against the official Move Book Code Quality Checklist. Use this skill when reviewing Move code, checking Move 2024 Edition compliance, or analyzing Move packages for best practices. Activates automatically when working with .move files or Move.toml manifests."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

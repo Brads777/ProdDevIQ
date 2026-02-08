@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "prompt-engineering-guidance"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/prompt-engineering-guidance/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/prompt-engineering-guidance"
+description: "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

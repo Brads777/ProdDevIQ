@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "research-grants"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/research-grants/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/research-grants"
+description: "Write competitive research proposals for NSF, NIH, DOE, and DARPA. Agency-specific formatting, review criteria, budget preparation, broader impacts, significance statements, innovation narratives, and compliance with submission requirements."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

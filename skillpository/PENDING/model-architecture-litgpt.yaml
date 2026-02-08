@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "model-architecture-litgpt"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/model-architecture-litgpt/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/model-architecture-litgpt"
+description: "Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral). Use when need clean model implementations, educational understanding of architectures, or production fine-tuning with LoRA/QLoRA. Single-file implementations, no abstraction layers."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

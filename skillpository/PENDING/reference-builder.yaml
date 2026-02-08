@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "reference-builder"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/documentation-generation/agents/reference-builder.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/agents/reference-builder.md"
+description: "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. Use PROACTIVELY for API docs, configuration references, or complete technical specifications."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "documentation-templates"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/document-processing/documentation-templates/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/documentation-templates"
+description: "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

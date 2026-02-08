@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "vr-ar"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/creative-design/game-development/vr-ar/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/game-development/vr-ar"
+description: "VR/AR development principles. Comfort, interaction, performance requirements."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

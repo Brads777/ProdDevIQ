@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ui-ux-designer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/multi-platform-apps/agents/ui-ux-designer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/ui-ux-designer.md"
+description: "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializes in design tokens, component libraries, and inclusive design. Use PROACTIVELY for design systems, user flows, or interface optimization."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

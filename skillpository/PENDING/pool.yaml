@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "pool"
+type: agent
+source_repo: "ruvnet/claude-flow"
+source_path: "v3/@claude-flow/cli/.claude/commands/agents/pool.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/v3/@claude-flow/cli/.claude/commands/agents/pool.md"
+description: "Manage agent pool for scaling"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

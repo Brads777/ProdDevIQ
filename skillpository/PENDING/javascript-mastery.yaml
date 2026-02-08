@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "javascript-mastery"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/javascript-mastery/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/javascript-mastery"
+description: "Comprehensive JavaScript reference covering 33+ essential concepts every developer should know. From fundamentals like primitives and closures to advanced patterns like async/await and functional programming. Use when explaining JS concepts, debugging JavaScript issues, or teaching JavaScript fundamentals."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

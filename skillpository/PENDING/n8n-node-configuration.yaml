@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "n8n-node-configuration"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration"
+description: "Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node_essentials and get_node_info, or learning common configuration patterns by node type."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

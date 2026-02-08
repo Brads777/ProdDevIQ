@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "reasoningbank-agentdb"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/reasoningbank-agentdb/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/reasoningbank-agentdb"
+description: "Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector database. Includes trajectory tracking, verdict judgment, memory distillation, and pattern recognition. Use when building self-learning agents, optimizing decision-making, or implementing experience replay systems."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

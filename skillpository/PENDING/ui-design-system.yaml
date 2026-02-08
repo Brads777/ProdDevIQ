@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ui-design-system"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/creative-design/ui-design-system/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/ui-design-system"
+description: "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

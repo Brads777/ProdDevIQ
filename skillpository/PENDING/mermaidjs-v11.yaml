@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "mermaidjs-v11"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/mermaidjs-v11/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/mermaidjs-v11"
+description: "Create diagrams and visualizations using Mermaid.js v11 syntax. Use when generating flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, Gantt charts, user journeys, timelines, architecture diagrams, or any of 24+ diagram types. Supports JavaScript API integration, CLI rendering to SVG/PNG/PDF, theming, configuration, and accessibility features. Essential for documentation, technical diagrams, project planning, system architecture, and visual communication."
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

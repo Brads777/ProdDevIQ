@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "v3-core-implementation"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/v3-core-implementation/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/v3-core-implementation"
+description: "Core module implementation for claude-flow v3. Implements DDD domains, clean architecture patterns, dependency injection, and modular TypeScript codebase with comprehensive testing."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

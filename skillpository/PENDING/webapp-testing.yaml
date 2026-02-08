@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "webapp-testing"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/webapp-testing/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/webapp-testing"
+description: "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

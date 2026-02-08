@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "lint-and-validate"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/lint-and-validate/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/lint-and-validate"
+description: "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

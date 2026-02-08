@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "security-requirement-extraction"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/security-scanning/skills/security-requirement-extraction/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/security-scanning/skills/security-requirement-extraction"
+description: "Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

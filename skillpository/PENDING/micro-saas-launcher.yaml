@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "micro-saas-launcher"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/business-marketing/micro-saas-launcher/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/micro-saas-launcher"
+description: "Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software. Covers idea validation, MVP development, pricing, launch strategies, and growing to sustainable revenue. Ship in weeks, not months. Use when: micro saas, indie hacker, small saas, side project, saas mvp."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

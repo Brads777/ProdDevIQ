@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "plan-writing"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/productivity/plan-writing/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/plan-writing"
+description: "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

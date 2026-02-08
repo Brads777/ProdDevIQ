@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "torchdrug"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/torchdrug/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/torchdrug"
+description: "Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, knowledge graph reasoning, molecular generation, retrosynthesis, GNNs (GIN, GAT, SchNet), 40+ datasets, for PyTorch-based ML on molecules, proteins, and biomedical graphs."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

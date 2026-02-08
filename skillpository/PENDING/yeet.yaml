@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "yeet"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/yeet/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/yeet"
+description: "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`)."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

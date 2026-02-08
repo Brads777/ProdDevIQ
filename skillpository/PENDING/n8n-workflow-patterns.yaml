@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "n8n-workflow-patterns"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns"
+description: "Proven workflow architectural patterns from real n8n workflows. Use when building new workflows, designing workflow structure, choosing workflow patterns, planning workflow architecture, or asking about webhook processing, HTTP API integration, database operations, AI agent workflows, or scheduled tasks."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

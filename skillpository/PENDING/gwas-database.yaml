@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "gwas-database"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/gwas-database/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/gwas-database"
+description: "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

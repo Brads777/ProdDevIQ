@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "nosql-expert"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/nosql-expert/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/nosql-expert"
+description: "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "openapi-to-typescript"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/openapi-to-typescript/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/openapi-to-typescript"
+description: "Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This skill should be used when the user asks to generate types from OpenAPI, convert schema to TS, create API interfaces, or generate TypeScript types from an API specification."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

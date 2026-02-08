@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "infrastructure-modal"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/infrastructure-modal/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/infrastructure-modal"
+description: "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

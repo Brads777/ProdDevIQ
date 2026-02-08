@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "c4-code"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/c4-architecture/agents/c4-code.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/c4-architecture/agents/c4-code.md"
+description: "Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure. Use when documenting code at the lowest C4 level for individual directories and code modules."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

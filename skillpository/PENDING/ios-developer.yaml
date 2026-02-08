@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ios-developer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/multi-platform-apps/agents/ios-developer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/ios-developer.md"
+description: "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. Use PROACTIVELY for iOS-specific features, App Store optimization, or native iOS development."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

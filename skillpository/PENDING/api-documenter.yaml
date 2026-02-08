@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "api-documenter"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/api-testing-observability/agents/api-documenter.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/api-testing-observability/agents/api-documenter.md"
+description: "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals. Use PROACTIVELY for API documentation or developer portal creation."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

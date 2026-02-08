@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ruby-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/web-scripting/agents/ruby-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/web-scripting/agents/ruby-pro.md"
+description: "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. Use PROACTIVELY for Ruby refactoring, optimization, or complex Ruby features."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

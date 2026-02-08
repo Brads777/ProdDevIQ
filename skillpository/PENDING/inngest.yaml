@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "inngest"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/inngest/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/inngest"
+description: "Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers. Use when: inngest, serverless background job, event-driven workflow, step function, durable execution."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

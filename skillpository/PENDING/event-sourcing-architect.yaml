@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "event-sourcing-architect"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/backend-development/agents/event-sourcing-architect.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/event-sourcing-architect.md"
+description: "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling with temporal queries."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

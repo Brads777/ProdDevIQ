@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "quality-manager-qms-iso13485"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485"
+description: "ISO 13485 Quality Management System specialist for medical device companies. Provides QMS implementation, maintenance, process optimization, and compliance expertise. Use for QMS design, documentation control, management review, internal auditing, corrective actions, and ISO 13485 certification activities."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

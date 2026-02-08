@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "commit-work"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/productivity/commit-work/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/commit-work"
+description: "Create high-quality git commits: review/stage intended changes, split into logical commits, and write clear commit messages (including Conventional Commits). Use when the user asks to commit, craft a commit message, stage changes, or split work into multiple commits."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

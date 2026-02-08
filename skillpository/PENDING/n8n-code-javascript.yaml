@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "n8n-code-javascript"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/n8n/n8n-code-javascript/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/n8n/n8n-code-javascript"
+description: "Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

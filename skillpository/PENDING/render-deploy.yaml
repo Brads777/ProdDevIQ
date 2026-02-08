@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "render-deploy"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/render-deploy/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/render-deploy"
+description: "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

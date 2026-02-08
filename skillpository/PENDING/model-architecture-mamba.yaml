@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "model-architecture-mamba"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/model-architecture-mamba/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/model-architecture-mamba"
+description: "State-space model with O(n) complexity vs Transformers' O(n²). 5× faster inference, million-token sequences, no KV cache. Selective SSM with hardware-aware design. Mamba-1 (d_state=16) and Mamba-2 (d_state=128, multi-head). Models 130M-2.8B on HuggingFace."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

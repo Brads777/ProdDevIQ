@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "debugging"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/debugging/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/debugging"
+description: "Systematic debugging frameworks for finding and fixing bugs - includes root cause analysis, defense-in-depth validation, and verification protocols"
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

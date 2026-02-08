@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "inference-serving-llama-cpp"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/inference-serving-llama-cpp/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/inference-serving-llama-cpp"
+description: "Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware. Use for edge deployment, M1/M2/M3 Macs, AMD/Intel GPUs, or when CUDA is unavailable. Supports GGUF quantization (1.5-8 bit) for reduced memory and 4-10× speedup vs PyTorch on CPU."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

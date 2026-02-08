@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-sparc-coordinator"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-sparc-coordinator/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-sparc-coordinator"
+description: "Agent skill for sparc-coordinator - invoke with $agent-sparc-coordinator"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

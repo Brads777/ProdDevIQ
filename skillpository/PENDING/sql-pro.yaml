@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "sql-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/database-design/agents/sql-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/database-design/agents/sql-pro.md"
+description: "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems. Use PROACTIVELY for database optimization or complex analysis."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

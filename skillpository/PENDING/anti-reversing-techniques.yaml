@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "anti-reversing-techniques"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/reverse-engineering/skills/anti-reversing-techniques/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/skills/anti-reversing-techniques"
+description: "Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti-debugging for authorized analysis, or understanding software protection mechanisms."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

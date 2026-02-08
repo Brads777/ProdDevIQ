@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "monorepo-architect"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/developer-essentials/agents/monorepo-architect.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/agents/monorepo-architect.md"
+description: ""
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

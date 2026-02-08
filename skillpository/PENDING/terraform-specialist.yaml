@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "terraform-specialist"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/cicd-automation/agents/terraform-specialist.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/terraform-specialist.md"
+description: "Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code, and CI/CD integration. Covers migration strategies, security best practices, and modern IaC ecosystems. Use PROACTIVELY for advanced IaC, state management, or infrastructure automation."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

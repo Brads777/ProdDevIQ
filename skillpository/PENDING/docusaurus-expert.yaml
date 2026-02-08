@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "docusaurus-expert"
+type: agent
+source_repo: "davila7/claude-code-templates"
+source_path: ".claude/agents/docusaurus-expert.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/.claude/agents/docusaurus-expert.md"
+description: "Docusaurus documentation specialist. Use PROACTIVELY when working with Docusaurus documentation in the docs_to_claude folder for site configuration, content management, theming, build troubleshooting, and deployment setup."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

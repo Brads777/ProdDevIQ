@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "safety-alignment-constitutional-ai"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/safety-alignment-constitutional-ai/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/safety-alignment-constitutional-ai"
+description: "Anthropic's method for training harmless AI through self-improvement. Two-phase approach - supervised learning with self-critique/revision, then RLAIF (RL from AI Feedback). Use for safety alignment, reducing harmful outputs without human labels. Powers Claude's safety system."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

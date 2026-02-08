@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "scroll-experience"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/creative-design/scroll-experience/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/scroll-experience"
+description: "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

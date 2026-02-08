@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "v3-ddd-architecture"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/v3-ddd-architecture/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/v3-ddd-architecture"
+description: "Domain-Driven Design architecture for claude-flow v3. Implements modular, bounded context architecture with clean separation of concerns and microkernel pattern."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

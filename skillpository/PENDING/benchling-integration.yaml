@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "benchling-integration"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/benchling-integration/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/benchling-integration"
+description: "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

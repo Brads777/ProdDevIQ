@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "projects"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/railway/projects/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/railway/projects"
+description: "List, switch, and configure Railway projects. Use when user wants to list all projects, switch projects, rename a project, enable/disable PR deploys, make a project public/private, or modify project settings."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

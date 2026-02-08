@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "spark-optimization"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/data-engineering/skills/spark-optimization/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/data-engineering/skills/spark-optimization"
+description: "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

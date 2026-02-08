@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "instruction-reflector"
+type: agent
+source_repo: "feiskyer/claude-code-settings"
+source_path: "agents/instruction-reflector.md"
+source_url: "https://github.com/feiskyer/claude-code-settings/tree/main/agents/instruction-reflector.md"
+description: "Analyzes and improves Claude Code instructions in CLAUDE.md. Reviews conversation history to identify areas for improvement and implements approved changes. Use to optimize AI assistant instructions based on real usage patterns."
+discovered: "2026-02-07 22:29"
+label: "Feiskyer Settings"
+status: pending

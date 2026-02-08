@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "worker-integration"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/worker-integration/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/worker-integration"
+description: "Worker-Agent integration for intelligent task dispatch and performance tracking"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "spec-kit-skill"
+type: skill
+source_repo: "feiskyer/claude-code-settings"
+source_path: "plugins/spec-kit-skill/skills/spec-kit-skill/SKILL.md"
+source_url: "https://github.com/feiskyer/claude-code-settings/tree/main/plugins/spec-kit-skill/skills/spec-kit-skill"
+description: "GitHub Spec-Kit integration for constitution-based spec-driven development. 7-phase workflow. Triggers: \"spec-kit\", \"speckit\", \"constitution\", \"specify\", \".specify/\", \"规格驱动开发\", \"需求规格\"."
+discovered: "2026-02-07 22:29"
+label: "Feiskyer Settings"
+status: pending

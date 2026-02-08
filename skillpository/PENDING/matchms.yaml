@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "matchms"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/matchms/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/matchms"
+description: "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

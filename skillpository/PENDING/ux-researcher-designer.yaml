@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ux-researcher-designer"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/creative-design/ux-researcher-designer/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/ux-researcher-designer"
+description: "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "k8s-security-policies"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/kubernetes-operations/skills/k8s-security-policies/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/kubernetes-operations/skills/k8s-security-policies"
+description: "Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security standards."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

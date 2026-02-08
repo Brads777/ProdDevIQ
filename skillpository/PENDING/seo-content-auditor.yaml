@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "seo-content-auditor"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/seo-content-creation/agents/seo-content-auditor.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/seo-content-creation/agents/seo-content-auditor.md"
+description: "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. Use PROACTIVELY for content review."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

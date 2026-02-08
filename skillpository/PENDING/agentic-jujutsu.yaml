@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agentic-jujutsu"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agentic-jujutsu/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agentic-jujutsu"
+description: "Quantum-resistant, self-learning version control for AI agents with ReasoningBank intelligence and multi-agent coordination"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ui-designer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/ui-design/agents/ui-designer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/ui-design/agents/ui-designer.md"
+description: "Expert UI designer specializing in component creation, layout systems, and visual design implementation. Masters modern design patterns, responsive layouts, and design-to-code workflows. Use PROACTIVELY when building UI components, designing layouts, creating mockups, or implementing visual designs."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

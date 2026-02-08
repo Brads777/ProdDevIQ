@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "writing-clearly-and-concisely"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely"
+description: "Use when writing prose humans will read—documentation, commit messages, error messages, explanations, reports, or UI text. Applies Strunk's timeless rules for clearer, stronger, more professional writing."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

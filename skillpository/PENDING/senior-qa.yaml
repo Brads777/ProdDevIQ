@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "senior-qa"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/senior-qa/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/senior-qa"
+description: "Comprehensive QA and testing skill for quality assurance, test automation, and testing strategies for ReactJS, NextJS, NodeJS applications. Includes test suite generation, coverage analysis, E2E testing setup, and quality metrics. Use when designing test strategies, writing test cases, implementing test automation, performing manual testing, or analyzing test coverage."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

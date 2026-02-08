@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "pptx-official"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/document-processing/pptx-official/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pptx-official"
+description: "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

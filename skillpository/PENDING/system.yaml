@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "system"
+type: agent
+source_repo: "danielmiessler/fabric"
+source_path: "data/patterns/extract_wisdom_agents/system.md"
+source_url: "https://github.com/danielmiessler/fabric/tree/main/data/patterns/extract_wisdom_agents/system.md"
+description: ""
+discovered: "2026-02-07 22:29"
+label: "Miessler Fabric"
+status: pending

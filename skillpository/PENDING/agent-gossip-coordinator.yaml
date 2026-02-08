@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-gossip-coordinator"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-gossip-coordinator/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-gossip-coordinator"
+description: "Agent skill for gossip-coordinator - invoke with $agent-gossip-coordinator"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

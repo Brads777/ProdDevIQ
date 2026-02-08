@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "salesforce-development"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/salesforce-development/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/salesforce-development"
+description: "Expert patterns for Salesforce platform development including Lightning Web Components (LWC), Apex triggers and classes, REST/Bulk APIs, Connected Apps, and Salesforce DX with scratch orgs and 2nd generation packages (2GP). Use when: salesforce, sfdc, apex, lwc, lightning web components."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

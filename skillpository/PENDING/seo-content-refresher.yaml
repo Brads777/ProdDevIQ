@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "seo-content-refresher"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/seo-analysis-monitoring/agents/seo-content-refresher.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/seo-analysis-monitoring/agents/seo-content-refresher.md"
+description: "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

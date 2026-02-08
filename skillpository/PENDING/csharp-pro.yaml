@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "csharp-pro"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/jvm-languages/agents/csharp-pro.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/jvm-languages/agents/csharp-pro.md"
+description: "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring, performance optimization, or complex .NET solutions."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending

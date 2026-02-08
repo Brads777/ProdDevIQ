@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "github-release-management"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/github-release-management/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/github-release-management"
+description: "Comprehensive GitHub release orchestration with AI swarm coordination for automated versioning, testing, deployment, and rollback management"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending

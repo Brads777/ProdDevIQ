@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "database-schema-designer"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/database-schema-designer/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/database-schema-designer"
+description: "Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization. Ensures data integrity, query performance, and maintainable data models."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

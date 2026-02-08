@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "inference-serving-sglang"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/inference-serving-sglang/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/inference-serving-sglang"
+description: "Fast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/regex outputs, constrained decoding, agentic workflows with tool calls, or when you need 5× faster inference than vLLM with prefix sharing. Powers 300,000+ GPUs at xAI, AMD, NVIDIA, and LinkedIn."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending

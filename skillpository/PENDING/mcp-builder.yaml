@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "mcp-builder"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/mcp-builder/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/mcp-builder"
+description: "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending

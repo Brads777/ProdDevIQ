@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "debugger"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/debugging-toolkit/agents/debugger.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/debugging-toolkit/agents/debugger.md"
+description: "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending
