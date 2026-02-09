@@ -12,7 +12,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # Create a Next.js project with shadcn/ui pre-configured
-RUN npx create-next-app@latest shadcn-workspace \
+# --yes skips all interactive prompts in create-next-app
+RUN npx --yes create-next-app@latest shadcn-workspace \
+    --yes \
     --typescript \
     --tailwind \
     --eslint \
@@ -21,13 +23,14 @@ RUN npx create-next-app@latest shadcn-workspace \
     --import-alias "@/*" \
     --no-turbopack \
     && mv shadcn-workspace/* . \
-    && mv shadcn-workspace/.* . 2>/dev/null || true \
-    && rmdir shadcn-workspace
+    && mv shadcn-workspace/.[!.]* . 2>/dev/null; \
+    rmdir shadcn-workspace 2>/dev/null; true
 
-# Initialize shadcn/ui
-RUN npx shadcn@latest init -d \
-    && npx shadcn@latest add button card dialog form input label textarea \
-       select checkbox switch tabs table badge avatar toast separator \
+# Initialize shadcn/ui (--yes to skip prompts; toast replaced by sonner)
+RUN npx --yes shadcn@latest init -d \
+    && npx --yes shadcn@latest add --yes --overwrite \
+       button card dialog form input label textarea \
+       select checkbox switch tabs table badge avatar separator \
        dropdown-menu command sheet popover tooltip alert alert-dialog \
        accordion breadcrumb calendar collapsible hover-card navigation-menu \
        pagination radio-group scroll-area slider sonner drawer resizable

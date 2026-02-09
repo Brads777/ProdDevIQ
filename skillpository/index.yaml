@@ -12,13 +12,86 @@
 
 catalog_version: "1.0"
 catalog_source: "IDETOOLS/catalog.md"
-total_skills: 376
+total_skills: 388
 total_agents: 139
 
 # ============================================================
 # SKILLS
 # ============================================================
 skills:
+  # --- academic-pipeline (11) ---
+  - name: academic-assignment-authoring
+    type: skill
+    category: academic-pipeline
+    description: "Structured methodology for authoring multi-phase academic assignments with AI-augmented pipelines, grading rubrics, and branded HTML deliverables. Captures the phase-card template pattern (What/Why/Guidance/Artifact/Gate), point-based grading tables, and responsive branded HTML generation."
+    source: "IDETOOLS/skills/academic-assignment-authoring/SKILL.md"
+
+  - name: mkt2700-pipeline-orchestrator
+    type: skill
+    category: academic-pipeline
+    description: "Master orchestrator for MKT2700 AI-Augmented Product Development Pipeline. Coordinates 7 phases from Strategic Foundation through PRD Generation with decision gates, progress tracking, and dual-path deployment (Claude.ai + Claude Code)."
+    source: "NEU Sill files/orchestrator.md"
+
+  - name: mkt2700-phase-1-strategic-foundation
+    type: skill
+    category: academic-pipeline
+    description: "Phase 1: Structured company interview + PESTEL/SWOT/VRIO/Porter's/Blue Ocean analysis with parallel Perplexity and Gemini research. Outputs strategic-brief.md."
+    source: "NEU Sill files/phase-1-strategic-foundation.md"
+
+  - name: mkt2700-phase-2-rubric-creation
+    type: skill
+    category: academic-pipeline
+    description: "Phase 2: Creates weighted evaluation rubric with category grouping, 0-4 scoring scale, must-have gates, and locked weights. Outputs evaluation-rubric.md."
+    source: "NEU Sill files/phase-2-rubric-creation.md"
+
+  - name: mkt2700-phase-3-concept-discovery
+    type: skill
+    category: academic-pipeline
+    description: "Phase 3: RAG-based concept discovery across YouTube, Reddit, X, Skool + Gemini/Perplexity parallel queries. Creates NotebookLM Discovery Notebook. Outputs concept-candidates.md."
+    source: "NEU Sill files/phase-3-concept-discovery.md"
+
+  - name: mkt2700-phase-4-deep-research
+    type: skill
+    category: academic-pipeline
+    description: "Phase 4: Deep research using NotebookLM Deep Research and Perplexity Pro in parallel. Per-concept notebooks with research quality checks. Outputs research-repository.md."
+    source: "NEU Sill files/phase-4-deep-research.md"
+
+  - name: mkt2700-phase-5-concept-evaluation
+    type: skill
+    category: academic-pipeline
+    description: "Phase 5: Multi-model evaluation (Claude + Gemini 3 Pro API + LLM Council reconciliation). Kill/revise/continue thresholds. Outputs evaluation-results.md."
+    source: "NEU Sill files/phase-5-concept-evaluation.md"
+
+  - name: mkt2700-phase-6-refinement-specification
+    type: skill
+    category: academic-pipeline
+    description: "Phase 6: SCAMPER refinement, morphological chart, component deep dive, and full KANO model classification across all 5 categories. Outputs refined-concept.md."
+    source: "NEU Sill files/phase-6-refinement-specification.md"
+
+  - name: mkt2700-phase-7-prd-generation
+    type: skill
+    category: academic-pipeline
+    description: "Phase 7: Generates 10-section PRD with 25+ citation minimums, KANO-classified features, detailed implementation roadmap. MKT2700-branded Word/PDF + Markdown outputs."
+    source: "NEU Sill files/phase-7-prd-generation.md"
+
+  - name: mkt2700-prd-presentation
+    type: skill
+    category: academic-pipeline
+    description: "Generates branded 20-24 slide PowerPoint deck for MKT2700 semester project deliverables using pptxgenjs. Navy/gold/cream theme with Georgia/Arial typography."
+    source: "NEU Sill files/prd-presentation-SKILL.md"
+
+  - name: mkt2700-pipeline-deployment
+    type: skill
+    category: academic-pipeline
+    description: "Deployment guide for MKT2700 pipeline. Setup for Claude.ai Projects and Claude Code, NotebookLM MCP server config, Gemini API setup, and timeline."
+    source: "NEU Sill files/DEPLOYMENT.md"
+
+  - name: mkt2700-llm-council-protocol
+    type: skill
+    category: academic-pipeline
+    description: "Reusable multi-model evaluation protocol. Runs Claude + Gemini 3 Pro independent assessments with structured reconciliation. Used at 4 pipeline checkpoints: rubric vetting, concept scoring, KANO validation, PRD review. Includes Python helper script."
+    source: "NEU Sill files/llm-council-protocol.md"
+
   # --- ai-llm (31) ---
   - name: agent-agentic-payments
     type: skill
