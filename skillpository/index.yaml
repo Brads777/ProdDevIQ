@@ -12,8 +12,8 @@
 
 catalog_version: "1.0"
 catalog_source: "IDETOOLS/catalog.md"
-total_skills: 388
-total_agents: 139
+total_skills: 391
+total_agents: 140
 
 # ============================================================
 # SKILLS
@@ -846,7 +846,13 @@ skills:
     description: "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines."
     source: IDETOOLS/skills/kdense-zarr-python
 
-  # --- devops-cicd (6) ---
+  # --- devops-cicd (8) ---
+  - name: azure-deploy
+    type: skill
+    category: devops-cicd
+    description: "Guided Azure deployment for full-stack web apps with free tier. Walks through Azure for Students signup, cheapest service selection (Static Web Apps, App Service F1, Cosmos DB free), and step-by-step deployment of frontend + backend + database."
+    source: IDETOOLS/skills/azure-deploy
+
   - name: deployment-pipeline-design
     type: skill
     category: devops-cicd
@@ -1557,7 +1563,7 @@ skills:
     description: Dispatch to the right problem-solving technique based on how you're stuck
     source: IDETOOLS/skills/when-stuck
 
-  # --- productivity (10) ---
+  # --- productivity (13) ---
   - name: agent-agent
     type: skill
     category: productivity
@@ -1617,6 +1623,18 @@ skills:
     category: productivity
     description: "Use when starting any conversation - establishes mandatory workflows for finding and using skills, including using Skill tool before announcing usage, following brainstorming before coding, and creating TodoWrite todos for checklists"
     source: IDETOOLS/skills/obra-using-superpowers
+
+  - name: start-new-project
+    type: skill
+    category: productivity
+    description: "Interactive new project setup wizard. Guides through naming, GitHub repo import (clone, ZIP download, or combine multiple repos), GODMODEDEV scaffolding, and orchestrator initialization. Trigger: 'start new project' or /start-new-project."
+    source: IDETOOLS/skills/start-new-project/SKILL.md
+
+  - name: student-app-starter
+    type: skill
+    category: productivity
+    description: "Guided app builder for students. Walks through picking a tech stack, scaffolding a project, and building a first working feature with AI agent assistance. Trigger: 'build my app', 'start my app', 'student starter'."
+    source: IDETOOLS/skills/student-app-starter/SKILL.md
 
   # --- python (4) ---
   - name: async-python-patterns
@@ -2827,7 +2845,15 @@ agents:
     source: IDETOOLS/agents/ui-engineer.md
     tools: "Read, Write, Edit, MultiEdit, LS, Glob, Grep, Bash, WebFetch"
 
-  # --- infrastructure (14) ---
+  # --- infrastructure (15) ---
+  - name: azure-deployer
+    type: agent
+    category: infrastructure
+    model: sonnet
+    description: "Azure deployment specialist for student projects. Handles Azure CLI commands, resource creation using free tiers (Static Web Apps, App Service F1, Cosmos DB free), and full-stack app deployment with cost-safety constraints."
+    source: IDETOOLS/agents/azure-deployer.md
+    tools: "Read, Write, Edit, Bash, Glob, Grep"
+
   - name: azure-infra-engineer
     type: agent
     category: infrastructure
