@@ -12,7 +12,7 @@
 
 catalog_version: "1.0"
 catalog_source: "IDETOOLS/catalog.md"
-total_skills: 1103
+total_skills: 992
 total_agents: 248
 
 # ============================================================
@@ -99,36 +99,6 @@ skills:
     description: Agent skill for agentic-payments - invoke with $agent-agentic-payments
     source: IDETOOLS/skills/agent-agentic-payments
 
-  - name: AgentDB Advanced Features
-    type: skill
-    category: ai-llm
-    description: "Master advanced AgentDB features including QUIC synchronization, multi-database management, custom distance metrics, hybrid search, and distributed systems integration. Use when building distributed AI systems, multi-agent coordination, or advanced v..."
-    source: IDETOOLS/skills/ruvnet-agentdb-advanced
-
-  - name: AgentDB Learning Plugins
-    type: skill
-    category: ai-llm
-    description: Create and train AI learning plugins with AgentDB
-    source: IDETOOLS/skills/ruvnet-agentdb-learning
-
-  - name: AgentDB Memory Patterns
-    type: skill
-    category: ai-llm
-    description: "Implement persistent memory patterns for AI agents using AgentDB. Includes session memory, long-term storage, pattern learning, and context management. Use when building stateful agents, chat systems, or intelligent assistants."
-    source: IDETOOLS/skills/ruvnet-agentdb-memory-patterns
-
-  - name: AgentDB Performance Optimization
-    type: skill
-    category: ai-llm
-    description: "Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving search speed, or scaling to millions of vectors."
-    source: IDETOOLS/skills/ruvnet-agentdb-optimization
-
-  - name: AgentDB Vector Search
-    type: skill
-    category: ai-llm
-    description: "Implement semantic vector search with AgentDB for intelligent document retrieval, similarity matching, and context-aware querying. Use when building RAG systems, semantic search engines, or intelligent knowledge bases."
-    source: IDETOOLS/skills/ruvnet-agentdb-vector-search
-
   - name: agentic-jujutsu
     type: skill
     category: ai-llm
@@ -165,24 +135,6 @@ skills:
     description: Comprehensive GitHub code review with AI-powered swarm coordination
     source: IDETOOLS/skills/ruvnet-github-code-review
 
-  - name: github-multi-repo
-    type: skill
-    category: ai-llm
-    description: "Multi-repository coordination, synchronization, and architecture management with AI swarm orchestration"
-    source: IDETOOLS/skills/ruvnet-github-multi-repo
-
-  - name: github-project-management
-    type: skill
-    category: ai-llm
-    description: "Comprehensive GitHub project management with swarm-coordinated issue tracking, project board automation, and sprint planning"
-    source: IDETOOLS/skills/ruvnet-github-project-management
-
-  - name: github-release-management
-    type: skill
-    category: ai-llm
-    description: "Comprehensive GitHub release orchestration with AI swarm coordination for automated versioning, testing, deployment, and rollback management"
-    source: IDETOOLS/skills/ruvnet-github-release-management
-
   - name: github-workflow-automation
     type: skill
     category: ai-llm
@@ -217,20 +169,14 @@ skills:
     type: skill
     category: ai-llm
     description: "Comprehensive performance analysis, bottleneck detection, and optimization recommendations for Claude Flow swarms"
-    source: IDETOOLS/skills/ruvnet-performance-analysis
+    source: IDETOOLS/skills/performance-master
 
-  - name: prompt-engineering-patterns
+
+  - name: performance-master
     type: skill
-    category: ai-llm
-    description: "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates."
-    source: IDETOOLS/skills/wshobson-prompt-engineering-patterns
-
-  - name: prompt-improver
-    type: skill
-    category: ai-llm
-    description: "This skill enriches vague prompts with targeted research and clarification before execution. Should be used when a prompt is determined to be vague and requires systematic research, question generation, and execution guidance."
-    source: IDETOOLS/skills/severity1-prompt-improver
-
+    category: general
+    description: "Comprehensive performance guide: Web Vitals, JS/Python optimization, database tuning, profiling tools, monitoring. Consolidates 6 skills."
+    source: IDETOOLS/skills/performance-master
   - name: prompting
     type: skill
     category: ai-llm
@@ -241,19 +187,19 @@ skills:
     type: skill
     category: ai-llm
     description: "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases."
-    source: IDETOOLS/skills/wshobson-rag-implementation
+    source: IDETOOLS/skills/rag-master
 
+
+  - name: rag-master
+    type: skill
+    category: ai-llm
+    description: "Comprehensive RAG guide: vector databases (Chroma/FAISS/Pinecone/Qdrant), embeddings, chunking, retrieval strategies. Consolidates 7 skills."
+    source: IDETOOLS/skills/rag-master
   - name: ReasoningBank Intelligence
     type: skill
     category: ai-llm
     description: "Implement adaptive learning with ReasoningBank for pattern recognition, strategy optimization, and continuous improvement. Use when building self-learning agents, optimizing workflows, or implementing meta-cognitive systems."
     source: IDETOOLS/skills/ruvnet-reasoningbank-intelligence
-
-  - name: ReasoningBank with AgentDB
-    type: skill
-    category: ai-llm
-    description: Implement ReasoningBank adaptive learning with AgentDB
-    source: IDETOOLS/skills/ruvnet-reasoningbank-agentdb
 
   - name: sequential-thinking
     type: skill
@@ -284,8 +230,14 @@ skills:
     type: skill
     category: backend-api
     description: "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards."
-    source: IDETOOLS/skills/wshobson-api-design-principles
+    source: IDETOOLS/skills/api-master
 
+
+  - name: api-master
+    type: skill
+    category: backend-api
+    description: "Comprehensive API guide: REST design, GraphQL, OpenAPI specs, type-safe clients, security, testing. Consolidates 8 skills."
+    source: IDETOOLS/skills/api-master
   - name: architecture-patterns
     type: skill
     category: backend-api
@@ -406,8 +358,14 @@ skills:
     type: skill
     category: cloud-infrastructure
     description: "Work with MongoDB (document database, BSON documents, aggregation pipelines, Atlas cloud) and PostgreSQL (relational database, SQL queries, psql CLI, pgAdmin). Use when designing database schemas, writing queries and aggregations, optimizing indexes ..."
-    source: IDETOOLS/skills/claudekit-databases
+    source: IDETOOLS/skills/database-master
 
+
+  - name: database-master
+    type: skill
+    category: database
+    description: "Comprehensive database guide: schema design, PostgreSQL, migrations, NoSQL, query optimization, Neon/Supabase. Consolidates 13 skills."
+    source: IDETOOLS/skills/database-master
   - name: hybrid-cloud-networking
     type: skill
     category: cloud-infrastructure
@@ -455,9 +413,15 @@ skills:
     type: skill
     category: code-patterns
     description: "Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows"
-    source: IDETOOLS/skills/ruvnet-stream-chain
+    source: IDETOOLS/skills/code-review-master
 
   # --- code-review (17) ---
+
+  - name: code-review-master
+    type: skill
+    category: code-review
+    description: "Comprehensive code review guide: checklists, giving/receiving feedback, automated checks, AI-assisted review. Consolidates 4 skills."
+    source: IDETOOLS/skills/code-review-master
   - name: agent-analyze-code-quality
     type: skill
     category: code-review
@@ -499,18 +463,6 @@ skills:
     category: code-review
     description: "AI-assisted pair programming with multiple modes (driver/navigator/switch), real-time verification, quality monitoring, and comprehensive testing. Supports TDD, debugging, refactoring, and learning sessions. Features automatic role switching, continu..."
     source: IDETOOLS/skills/ruvnet-pair-programming
-
-  - name: receiving-code-review
-    type: skill
-    category: code-review
-    description: "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
-    source: IDETOOLS/skills/obra-receiving-code-review
-
-  - name: requesting-code-review
-    type: skill
-    category: code-review
-    description: "Use when completing tasks, implementing major features, or before merging to verify work meets requirements - dispatches superpowers:code-reviewer subagent to review implementation against plan or requirements before proceeding"
-    source: IDETOOLS/skills/obra-requesting-code-review
 
   - name: sast-configuration
     type: skill
@@ -622,36 +574,6 @@ skills:
     category: database
     description: "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code."
     source: IDETOOLS/skills/wshobson-angular-migration
-
-  - name: database-migration
-    type: skill
-    category: database
-    description: "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployme..."
-    source: IDETOOLS/skills/wshobson-database-migration
-
-  - name: nodejs-backend-patterns
-    type: skill
-    category: database
-    description: "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backend..."
-    source: IDETOOLS/skills/wshobson-nodejs-backend-patterns
-
-  - name: postgresql-table-design
-    type: skill
-    category: database
-    description: "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
-    source: IDETOOLS/skills/postgresql
-
-  - name: postgres-schema-design
-    type: skill
-    category: database
-    description: "Comprehensive PostgreSQL-specific table design reference covering data types, indexing, constraints, performance patterns, and advanced features"
-    source: IDETOOLS/skills/postgres-schema-design
-
-  - name: sql-optimization-patterns
-    type: skill
-    category: database
-    description: "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance."
-    source: IDETOOLS/skills/sql-optimization-patterns
 
   # --- data-science-ml (32) ---
   - name: dask
@@ -883,12 +805,6 @@ skills:
     description: "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade K..."
     source: IDETOOLS/skills/wshobson-k8s-manifest-generator
 
-  - name: k8s-security-policies
-    type: skill
-    category: devops-cicd
-    description: "Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security standards."
-    source: IDETOOLS/skills/wshobson-k8s-security-policies
-
   # --- document-processing (14) ---
   - name: claude-docs-consultant
     type: skill
@@ -937,12 +853,6 @@ skills:
     category: document-processing
     description: "Convert various file formats (PDF, Office documents, images, audio, web content, structured data) to Markdown optimized for LLM processing. Use when converting documents to markdown, extracting text from PDFs/Office files, transcribing audio, perform..."
     source: IDETOOLS/skills/kdense-markitdown
-
-  - name: pdf
-    type: skill
-    category: document-processing
-    description: "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scal..."
-    source: IDETOOLS/skills/pdf-anthropic
 
   - name: PDF Processing
     type: skill
@@ -999,18 +909,6 @@ skills:
     description: "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artis..."
     source: IDETOOLS/skills/canvas-design
 
-  - name: frontend-design
-    type: skill
-    category: frontend-design
-    description: "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics."
-    source: IDETOOLS/skills/claudekit-frontend-design
-
-  - name: frontend-dev-guidelines
-    type: skill
-    category: frontend-design
-    description: "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScrip..."
-    source: IDETOOLS/skills/claudekit-frontend-development
-
   - name: high-converting-landing-page
     type: skill
     category: frontend-design
@@ -1027,25 +925,19 @@ skills:
     type: skill
     category: frontend-design
     description: "Build Shopify applications, extensions, and themes using GraphQL/REST APIs, Shopify CLI, Polaris UI components, and Liquid templating. Capabilities include app development with OAuth authentication, checkout UI extensions for customizing checkout flo..."
-    source: IDETOOLS/skills/claudekit-shopify
+    source: IDETOOLS/skills/ui-design-master
 
+
+  - name: ui-design-master
+    type: skill
+    category: frontend-design
+    description: "Comprehensive UI/UX guide: design systems, Tailwind CSS, component libraries, accessibility, responsive design. Consolidates 7 skills."
+    source: IDETOOLS/skills/ui-design-master
   - name: theme-factory
     type: skill
     category: frontend-design
     description: "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme..."
     source: IDETOOLS/skills/theme-factory
-
-  - name: ui-design-review
-    type: skill
-    category: frontend-design
-    description: "Comprehensive UI/UX design review and critique for existing interfaces. Analyzes visual design, usability, accessibility, and user experience to provide specific improvement recommendations. Use when reviewing existing designs, getting feedback on UI..."
-    source: IDETOOLS/skills/ui-design-review
-
-  - name: ui-styling
-    type: skill
-    category: frontend-design
-    description: "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating respo..."
-    source: IDETOOLS/skills/claudekit-ui-styling
 
   - name: ui-ux-pro-max
     type: skill
@@ -1233,8 +1125,14 @@ skills:
     type: skill
     category: general
     description: Use when facing 3+ independent failures that can be investigated without shared state or dependencies - dispatches multiple Claude agents to investigate and fix independent problems concurrently
-    source: IDETOOLS/skills/obra-dispatching-parallel-agents
+    source: IDETOOLS/skills/ml-master
 
+
+  - name: ml-master
+    type: skill
+    category: data-science-ml
+    description: "Comprehensive ML/MLOps guide: pipeline workflows, experiment tracking (MLflow/TensorBoard/W&B), deployment, paper writing. Consolidates 5 skills."
+    source: IDETOOLS/skills/ml-master
   - name: fabric
     type: skill
     category: general
@@ -1637,23 +1535,11 @@ skills:
     source: IDETOOLS/skills/student-app-starter/SKILL.md
 
   # --- python (4) ---
-  - name: async-python-patterns
-    type: skill
-    category: python
-    description: "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations."
-    source: IDETOOLS/skills/wshobson-async-python-patterns
-
   - name: python-packaging
     type: skill
     category: python
     description: "Create distributable Python packages with proper project structure, setup.py/pyproject.toml, and publishing to PyPI. Use when packaging Python libraries, creating CLI tools, or distributing Python code."
     source: IDETOOLS/skills/python-packaging
-
-  - name: python-performance-optimization
-    type: skill
-    category: python
-    description: "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance."
-    source: IDETOOLS/skills/python-performance-optimization
 
   - name: uv-package-manager
     type: skill
@@ -2203,9 +2089,15 @@ skills:
     type: skill
     category: security
     description: "Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card security measures."
-    source: IDETOOLS/skills/wshobson-pci-compliance
+    source: IDETOOLS/skills/backend-master
 
   - name: solidity-security
+
+  - name: backend-master
+    type: skill
+    category: backend-api
+    description: "Comprehensive backend guide: Node.js/Python/.NET patterns, architecture, auth, error handling, frontend handoff. Consolidates 7 skills."
+    source: IDETOOLS/skills/backend-master
     type: skill
     category: security
     description: "Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementing security measures for blockchain applications."
@@ -2217,12 +2109,6 @@ skills:
     category: testing
     description: "Build robust backend systems with modern technologies (Node.js, Python, Go, Rust), frameworks (NestJS, FastAPI, Django), databases (PostgreSQL, MongoDB, Redis), APIs (REST, GraphQL, gRPC), authentication (OAuth 2.1, JWT), testing strategies, security..."
     source: IDETOOLS/skills/claudekit-backend-development
-
-  - name: bats-testing-patterns
-    type: skill
-    category: testing
-    description: "Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities."
-    source: IDETOOLS/skills/bats-testing-patterns
 
   - name: data-stats-analysis
     type: skill
@@ -2236,23 +2122,11 @@ skills:
     description: "Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries."
     source: IDETOOLS/skills/wshobson-dependency-upgrade
 
-  - name: e2e-testing-patterns
-    type: skill
-    category: testing
-    description: "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishing testing standards."
-    source: IDETOOLS/skills/wshobson-e2e-testing-patterns
-
   - name: ffuf-web-fuzzing
     type: skill
     category: testing
     description: "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis"
     source: IDETOOLS/skills/miessler-ffuf
-
-  - name: github-actions-templates
-    type: skill
-    category: testing
-    description: "Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflow templates."
-    source: IDETOOLS/skills/wshobson-github-actions-templates
 
   - name: gitlab-ci-patterns
     type: skill
@@ -2260,53 +2134,17 @@ skills:
     description: "Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Use when implementing GitLab CI/CD, optimizing pipeline performance, or setting up automated testing and deployment."
     source: IDETOOLS/skills/wshobson-gitlab-ci-patterns
 
-  - name: javascript-testing-patterns
-    type: skill
-    category: testing
-    description: "Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up..."
-    source: IDETOOLS/skills/wshobson-javascript-testing-patterns
-
   - name: Playwright Browser Automation
     type: skill
     category: testing
     description: "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use wh..."
     source: IDETOOLS/skills/lackeyjb-playwright-skill
 
-  - name: python-testing-patterns
-    type: skill
-    category: testing
-    description: "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices."
-    source: IDETOOLS/skills/python-testing-patterns
-
   - name: systematic-debugging
     type: skill
     category: testing
     description: "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes - four-phase framework (root cause investigation, pattern analysis, hypothesis testing, implementation) that ensures understanding before attempting solutions"
     source: IDETOOLS/skills/obra-systematic-debugging
-
-  - name: temporal-python-testing
-    type: skill
-    category: testing
-    description: "Test Temporal workflows with pytest, time-skipping, and mocking strategies. Covers unit testing, integration testing, replay testing, and local development setup. Use when implementing Temporal workflow tests or debugging test failures."
-    source: IDETOOLS/skills/temporal-python-testing
-
-  - name: test-driven-development
-    type: skill
-    category: testing
-    description: "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first"
-    source: IDETOOLS/skills/obra-test-driven-development
-
-  - name: testing-anti-patterns
-    type: skill
-    category: testing
-    description: "Use when writing or changing tests, adding mocks, or tempted to add test-only methods to production code - prevents testing mock behavior, production pollution with test-only methods, and mocking without understanding dependencies"
-    source: IDETOOLS/skills/obra-testing-anti-patterns
-
-  - name: testing-skills-with-subagents
-    type: skill
-    category: testing
-    description: "Use when creating or editing skills, before deployment, to verify they work under pressure and resist rationalization - applies RED-GREEN-REFACTOR cycle to process documentation by running baseline without skill, writing to address failures, iteratin..."
-    source: IDETOOLS/skills/obra-testing-skills-with-subagents
 
   - name: web3-testing
     type: skill
@@ -2741,12 +2579,6 @@ skills:
     description: "Agent skill for sync-coordinator - invoke with $agent-sync-coordinator"
     source: PENDING/agent-sync-coordinator
 
-  - name: agent-tdd-london-swarm
-    type: skill
-    category: ai-llm
-    description: "Agent skill for tdd-london-swarm - invoke with $agent-tdd-london-swarm"
-    source: PENDING/agent-tdd-london-swarm
-
   - name: agent-test-long-runner
     type: skill
     category: ai-llm
@@ -2795,23 +2627,11 @@ skills:
     description: "Agent skill for v3-memory-specialist - invoke with $agent-v3-memory-specialist"
     source: PENDING/agent-v3-memory-specialist
 
-  - name: agent-v3-performance-engineer
-    type: skill
-    category: ai-llm
-    description: "Agent skill for v3-performance-engineer - invoke with $agent-v3-performance-engineer"
-    source: PENDING/agent-v3-performance-engineer
-
   - name: agent-v3-queen-coordinator
     type: skill
     category: ai-llm
     description: "Agent skill for v3-queen-coordinator - invoke with $agent-v3-queen-coordinator"
     source: PENDING/agent-v3-queen-coordinator
-
-  - name: agent-v3-security-architect
-    type: skill
-    category: ai-llm
-    description: "Agent skill for v3-security-architect - invoke with $agent-v3-security-architect"
-    source: PENDING/agent-v3-security-architect
 
   - name: agent-worker-specialist
     type: skill
@@ -2829,37 +2649,19 @@ skills:
     type: skill
     category: ai-llm
     description: "Agent skill for workflow - invoke with $agent-workflow"
-    source: PENDING/agent-workflow
+    source: IDETOOLS/skills/agentdb-master
 
+
+  - name: agentdb-master
+    type: skill
+    category: ai-llm
+    description: "Comprehensive AgentDB guide: vector search, memory patterns, QUIC sync, learning plugins, ReasoningBank. Consolidates 12 skills."
+    source: IDETOOLS/skills/agentdb-master
   - name: agentdb-advanced
     type: skill
     category: ai-llm
     description: "Master advanced AgentDB features including QUIC synchronization, multi-database management, custom distance metrics, hybrid search, and distributed systems integration. Use when building distribute..."
     source: PENDING/agentdb-advanced
-
-  - name: agentdb-learning
-    type: skill
-    category: ai-llm
-    description: "Create and train AI learning plugins with AgentDB's 9 reinforcement learning algorithms. Includes Decision Transformer, Q-Learning, SARSA, Actor-Critic, and more. Use when building self-learning ag..."
-    source: PENDING/agentdb-learning
-
-  - name: agentdb-memory-patterns
-    type: skill
-    category: ai-llm
-    description: "Implement persistent memory patterns for AI agents using AgentDB. Includes session memory, long-term storage, pattern learning, and context management. Use when building stateful agents, chat syste..."
-    source: PENDING/agentdb-memory-patterns
-
-  - name: agentdb-optimization
-    type: skill
-    category: ai-llm
-    description: "Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving search speed,..."
-    source: PENDING/agentdb-optimization
-
-  - name: agentdb-vector-search
-    type: skill
-    category: ai-llm
-    description: "Implement semantic vector search with AgentDB for intelligent document retrieval, similarity matching, and context-aware querying. Use when building RAG systems, semantic search engines, or intelli..."
-    source: PENDING/agentdb-vector-search
 
   - name: agents-autogpt
     type: skill
@@ -2932,36 +2734,6 @@ skills:
     category: problem-solving
     description: "Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti-debugging for authorized analysis, or u..."
     source: PENDING/anti-reversing-techniques
-
-  - name: api-documentation-generator
-    type: skill
-    category: document-processing
-    description: "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices"
-    source: PENDING/api-documentation-generator
-
-  - name: api-fuzzing-bug-bounty
-    type: skill
-    category: testing
-    description: "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty A..."
-    source: PENDING/api-fuzzing-bug-bounty
-
-  - name: api-integration-specialist
-    type: skill
-    category: frontend-design
-    description: "Expert in integrating third-party APIs with proper authentication, error handling, rate limiting, and retry logic. Use when integrating REST APIs, GraphQL endpoints, webhooks, or external services...."
-    source: PENDING/api-integration-specialist
-
-  - name: api-patterns
-    type: skill
-    category: backend-api
-    description: "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination."
-    source: PENDING/api-patterns
-
-  - name: api-security-best-practices
-    type: skill
-    category: security
-    description: "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities"
-    source: PENDING/api-security-best-practices
 
   - name: app-builder
     type: skill
@@ -3046,18 +2818,6 @@ skills:
     category: data-science-ml
     description: "Expert patterns for Azure Functions development including isolated worker model, Durable Functions orchestration, cold start optimization, and production patterns. Covers .NET, Python, and Node.js ..."
     source: PENDING/azure-functions
-
-  - name: backend-dev-guidelines
-    type: skill
-    category: testing
-    description: "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma..."
-    source: PENDING/backend-dev-guidelines
-
-  - name: backend-to-frontend-handoff-docs
-    type: skill
-    category: document-processing
-    description: "Create API handoff documentation for frontend developers. Use when backend work is complete and needs to be documented for frontend integration, or user says 'create handoff', 'document API', 'fron..."
-    source: PENDING/backend-to-frontend-handoff-docs
 
   - name: backtesting-frameworks
     type: skill
@@ -3173,12 +2933,6 @@ skills:
     description: "Senior CAPA Officer specialist for managing Corrective and Preventive Actions within Quality Management Systems. Provides CAPA process management, root cause analysis, effectiveness verification, a..."
     source: PENDING/capa-officer
 
-  - name: cc-skill-backend-patterns
-    type: skill
-    category: database
-    description: "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
-    source: PENDING/cc-skill-backend-patterns
-
   - name: cc-skill-clickhouse-io
     type: skill
     category: database
@@ -3197,23 +2951,11 @@ skills:
     description: "Development skill from everything-claude-code"
     source: PENDING/cc-skill-continuous-learning
 
-  - name: cc-skill-frontend-patterns
-    type: skill
-    category: frontend-design
-    description: "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
-    source: PENDING/cc-skill-frontend-patterns
-
   - name: cc-skill-project-guidelines-example
     type: skill
     category: frontend-design
     description: "Project Guidelines Skill (Example)"
     source: PENDING/cc-skill-project-guidelines-example
-
-  - name: cc-skill-security-review
-    type: skill
-    category: security
-    description: "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist a..."
-    source: PENDING/cc-skill-security-review
 
   - name: cc-skill-strategic-compact
     type: skill
@@ -3298,12 +3040,6 @@ skills:
     category: devops-cicd
     description: "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare."
     source: PENDING/cloudflare-deploy
-
-  - name: code-review-checklist
-    type: skill
-    category: code-review
-    description: "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability"
-    source: PENDING/code-review-checklist
 
   - name: codex-review
     type: skill
@@ -3521,18 +3257,6 @@ skills:
     description: "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive present..."
     source: PENDING/data-storytelling
 
-  - name: database-design
-    type: skill
-    category: database
-    description: "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases."
-    source: PENDING/database-design
-
-  - name: database-schema-designer
-    type: skill
-    category: data-science-ml
-    description: "Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization. En..."
-    source: PENDING/database-schema-designer
-
   - name: database
     type: skill
     category: database
@@ -3586,18 +3310,6 @@ skills:
     category: devops-cicd
     description: "Manage Railway deployments - view logs, redeploy, restart, or remove deployments. Use for deployment lifecycle (remove, stop, redeploy, restart), deployment visibility (list, status, history), and ..."
     source: PENDING/deployment
-
-  - name: design-system-patterns
-    type: skill
-    category: frontend-design
-    description: "Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building component libr..."
-    source: PENDING/design-system-patterns
-
-  - name: design-system-starter
-    type: skill
-    category: document-processing
-    description: "Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates. Ensures consistent, scalable, and accessible UI across products."
-    source: PENDING/design-system-starter
 
   - name: deslop
     type: skill
@@ -3677,12 +3389,6 @@ skills:
     description: "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY f..."
     source: PENDING/docker-expert
 
-  - name: documentation-templates
-    type: skill
-    category: document-processing
-    description: "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation."
-    source: PENDING/documentation-templates
-
   - name: docx-official
     type: skill
     category: document-processing
@@ -3694,12 +3400,6 @@ skills:
     category: general
     description: "Add, view, or remove domains for Railway services. Use when user wants to add a domain, generate a railway domain, check current domains, get the URL for a service, or remove a domain."
     source: PENDING/domain
-
-  - name: dotnet-backend-patterns
-    type: skill
-    category: testing
-    description: "Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuratio..."
-    source: PENDING/dotnet-backend-patterns
 
   - name: draw-io
     type: skill
@@ -3909,14 +3609,26 @@ skills:
     type: skill
     category: data-science-ml
     description: "Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-bit QLoRA, multimodal support"
-    source: PENDING/fine-tuning-llama-factory
+    source: IDETOOLS/skills/frontend-master
 
+
+  - name: frontend-master
+    type: skill
+    category: frontend-design
+    description: "Comprehensive frontend guide: architecture, state management, build tooling, accessibility, modern CSS. Consolidates 4 skills."
+    source: IDETOOLS/skills/frontend-master
   - name: fine-tuning-peft
     type: skill
     category: data-science-ml
     description: "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minima..."
-    source: PENDING/fine-tuning-peft
+    source: IDETOOLS/skills/game-master
 
+
+  - name: game-master
+    type: skill
+    category: general
+    description: "Comprehensive game development guide: design, art pipelines, audio, engines (Godot/Phaser/Pygame), web games. Consolidates 5 skills."
+    source: IDETOOLS/skills/game-master
   - name: fine-tuning-unsloth
     type: skill
     category: data-science-ml
@@ -3959,36 +3671,6 @@ skills:
     description: "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, Tan..."
     source: PENDING/frontend-development
 
-  - name: frontend-to-backend-requirements
-    type: skill
-    category: document-processing
-    description: "Document frontend data needs for backend developers. Use when frontend needs to communicate API requirements to backend, or user says 'backend requirements', 'what data do I need', 'API requirement..."
-    source: PENDING/frontend-to-backend-requirements
-
-  - name: game-art
-    type: skill
-    category: devops-cicd
-    description: "Game art principles. Visual style selection, asset pipeline, animation workflow."
-    source: PENDING/game-art
-
-  - name: game-audio
-    type: skill
-    category: game-development
-    description: "Game audio principles. Sound design, music integration, adaptive audio systems."
-    source: PENDING/game-audio
-
-  - name: game-changing-features
-    type: skill
-    category: ai-llm
-    description: "Find 10x product opportunities and high-leverage improvements. Use when user wants strategic product thinking, mentions '10x', wants to find high-impact features, or says 'what would make this 10x ..."
-    source: PENDING/game-changing-features
-
-  - name: game-design
-    type: skill
-    category: game-development
-    description: "Game design principles. GDD structure, balancing, player psychology, progression."
-    source: PENDING/game-design
-
   - name: game-development
     type: skill
     category: game-development
@@ -4011,8 +3693,14 @@ skills:
     type: skill
     category: code-review
     description: "Senior GDPR/DSGVO expert and internal/external auditor for data protection compliance. Provides EU GDPR and German DSGVO expertise, privacy impact assessments, data protection auditing, and complia..."
-    source: PENDING/gdpr-dsgvo-expert
+    source: IDETOOLS/skills/github-master
 
+
+  - name: github-master
+    type: skill
+    category: git-vcs
+    description: "Comprehensive GitHub guide: Actions CI/CD, release management, multi-repo workflows, project management, automation. Consolidates 5 skills."
+    source: IDETOOLS/skills/github-master
   - name: gemini
     type: skill
     category: frontend-design
@@ -4198,12 +3886,6 @@ skills:
     category: research-search
     description: "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup and web search for accurate data. Support..."
     source: PENDING/infographics
-
-  - name: information-security-manager-iso27001
-    type: skill
-    category: security
-    description: "Senior Information Security Manager specializing in ISO 27001 and ISO 27002 implementation for HealthTech and MedTech companies. Provides ISMS implementation, cybersecurity risk assessment, securit..."
-    source: PENDING/information-security-manager-iso27001
 
   - name: infrastructure-lambda-labs
     type: skill
@@ -4491,8 +4173,14 @@ skills:
     type: skill
     category: data-science-ml
     description: "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable feature..."
-    source: PENDING/mechanistic-interpretability-saelens
+    source: IDETOOLS/skills/mobile-master
 
+
+  - name: mobile-master
+    type: skill
+    category: frontend-design
+    description: "Comprehensive mobile guide: React Native/Expo, iOS/Android design, UX patterns, performance, app store submission. Consolidates 4 skills."
+    source: IDETOOLS/skills/mobile-master
   - name: mechanistic-interpretability-transformer-lens
     type: skill
     category: data-science-ml
@@ -4559,53 +4247,11 @@ skills:
     description: "Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software. Covers idea validation, MVP development, pricing, launch strategies, and growing t..."
     source: PENDING/micro-saas-launcher
 
-  - name: ml-paper-writing
-    type: skill
-    category: data-science-ml
-    description: "Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready su..."
-    source: PENDING/ml-paper-writing
-
-  - name: mlops-mlflow
-    type: skill
-    category: data-science-ml
-    description: "Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform"
-    source: PENDING/mlops-mlflow
-
-  - name: mlops-tensorboard
-    type: skill
-    category: data-science-ml
-    description: "Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit"
-    source: PENDING/mlops-tensorboard
-
-  - name: mlops-weights-and-biases
-    type: skill
-    category: data-science-ml
-    description: "Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform"
-    source: PENDING/mlops-weights-and-biases
-
-  - name: mobile-android-design
-    type: skill
-    category: frontend-design
-    description: "Master Material Design 3 and Jetpack Compose patterns for building native Android apps. Use when designing Android interfaces, implementing Compose UI, or following Google's Material Design guideli..."
-    source: PENDING/mobile-android-design
-
   - name: mobile-design
     type: skill
     category: frontend-design
     description: "Mobile-first design thinking and decision-making for iOS and Android apps. Touch interaction, performance patterns, platform conventions. Teaches principles, not fixed values. Use when building Rea..."
     source: PENDING/mobile-design
-
-  - name: mobile-games
-    type: skill
-    category: mobile-development
-    description: "Mobile game development principles. Touch input, battery, performance, app stores."
-    source: PENDING/mobile-games
-
-  - name: mobile-ios-design
-    type: skill
-    category: frontend-design
-    description: "Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design princi..."
-    source: PENDING/mobile-ios-design
 
   - name: model-architecture-litgpt
     type: skill
@@ -4769,18 +4415,6 @@ skills:
     description: "Generate or edit images using Google Gemini API via nanobanana. Triggers: \"nanobanana\", \"generate image\", \"create image\", \"edit image\", \"AI drawing\", \"图片生成\", \"AI绘图\", \"图片编辑\", \"生成图片\"."
     source: PENDING/nanobanana-skill
 
-  - name: neon-instagres
-    type: skill
-    category: database
-    description: "Instantly provision production-ready Postgres databases with Neon Instagres. Use when setting up databases, when users mention PostgreSQL/Postgres, database setup, or need a development database. W..."
-    source: PENDING/neon-instagres
-
-  - name: neon-postgres
-    type: skill
-    category: database
-    description: "Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration Use when: neon database, serverless postgres, database branching, neon postgres, postgres..."
-    source: PENDING/neon-postgres
-
   - name: nestjs-expert
     type: skill
     category: testing
@@ -4841,12 +4475,6 @@ skills:
     description: "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying."
     source: PENDING/nodejs-best-practices
 
-  - name: nosql-expert
-    type: skill
-    category: data-science-ml
-    description: "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems."
-    source: PENDING/nosql-expert
-
   - name: notebooklm
     type: skill
     category: document-processing
@@ -4864,12 +4492,6 @@ skills:
     category: research-search
     description: "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees."
     source: PENDING/notion-meeting-intelligence
-
-  - name: notion-research-documentation
-    type: skill
-    category: document-processing
-    description: "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations."
-    source: PENDING/notion-research-documentation
 
   - name: notion-spec-to-implementation
     type: skill
@@ -4949,18 +4571,6 @@ skills:
     description: "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations (for example: Codex, Responses API, Chat Completions, Apps SDK, Agents SD..."
     source: PENDING/openai-docs
 
-  - name: openapi-spec-generation
-    type: skill
-    category: document-processing
-    description: "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance."
-    source: PENDING/openapi-spec-generation
-
-  - name: openapi-to-typescript
-    type: skill
-    category: backend-api
-    description: "Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This skill should be used when the user asks to generate types from OpenAPI, convert schema to TS, create API interfaces, or..."
-    source: PENDING/openapi-to-typescript
-
   - name: optimization-awq
     type: skill
     category: data-science-ml
@@ -5001,8 +4611,14 @@ skills:
     type: skill
     category: frontend-design
     description: "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says..."
-    source: PENDING/page-cro
+    source: IDETOOLS/skills/pdf-master
 
+
+  - name: pdf-master
+    type: skill
+    category: document-processing
+    description: "Comprehensive PDF guide: text extraction, Claude integration, generation, OCR, manipulation, RAG pipelines. Consolidates 5 skills."
+    source: IDETOOLS/skills/pdf-master
   - name: paid-ads
     type: skill
     category: database
@@ -5057,24 +4673,6 @@ skills:
     description: "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmaticall..."
     source: PENDING/pdf-anthropic
 
-  - name: pdf-official
-    type: skill
-    category: document-processing
-    description: "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmaticall..."
-    source: PENDING/pdf-official
-
-  - name: pdf-processing-pro
-    type: skill
-    category: document-processing
-    description: "Production-ready PDF processing with forms, tables, OCR, validation, and batch operations. Use when working with complex PDF workflows in production environments, processing large volumes of PDFs, ..."
-    source: PENDING/pdf-processing-pro
-
-  - name: pdf-processing
-    type: skill
-    category: document-processing
-    description: "Extract text and tables from PDF files, fill forms, merge documents. Use when working with PDF files or when the user mentions PDFs, forms, or document extraction."
-    source: PENDING/pdf-processing
-
   - name: peer-review
     type: skill
     category: design-ux
@@ -5098,12 +4696,6 @@ skills:
     category: testing
     description: "This skill should be used when the user asks to \"run pentest commands\", \"scan with nmap\", \"use metasploit exploits\", \"crack passwords with hydra or john\", \"scan web vulnerabilities with ni..."
     source: PENDING/pentest-commands
-
-  - name: performance-profiling
-    type: skill
-    category: database
-    description: "Performance profiling principles. Measurement, analysis, and optimization techniques."
-    source: PENDING/performance-profiling
 
   - name: performance
     type: skill
@@ -5140,18 +4732,6 @@ skills:
     category: frontend-design
     description: "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requirin..."
     source: PENDING/planning-with-files
-
-  - name: playwright-skill
-    type: skill
-    category: testing
-    description: "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login ..."
-    source: PENDING/playwright-skill
-
-  - name: playwright
-    type: skill
-    category: testing
-    description: "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wra..."
-    source: PENDING/playwright
 
   - name: plugin-forge
     type: skill
@@ -5224,18 +4804,6 @@ skills:
     category: data-science-ml
     description: "Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL). Use when implementing RLHF, GRPO, PPO, or other RL algorithms for LLM post-training at scale with fle..."
     source: PENDING/post-training-verl
-
-  - name: postgres-best-practices
-    type: skill
-    category: database
-    description: "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
-    source: PENDING/postgres-best-practices
-
-  - name: postgresql
-    type: skill
-    category: database
-    description: "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
-    source: PENDING/postgresql
 
   - name: postmortem-writing
     type: skill
@@ -5325,49 +4893,19 @@ skills:
     type: skill
     category: devops-cicd
     description: "List, switch, and configure Railway projects. Use when user wants to list all projects, switch projects, rename a project, enable/disable PR deploys, make a project public/private, or modify projec..."
-    source: PENDING/projects
+    source: IDETOOLS/skills/prompt-master
 
-  - name: prompt-caching
+
+  - name: prompt-master
     type: skill
     category: ai-llm
-    description: "Caching strategies for LLM prompts including Anthropic prompt caching, response caching, and CAG (Cache Augmented Generation) Use when: prompt caching, cache prompt, response cache, cag, cache augm..."
-    source: PENDING/prompt-caching
-
-  - name: prompt-engineering-dspy
-    type: skill
-    category: ai-llm
-    description: "Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming"
-    source: PENDING/prompt-engineering-dspy
-
-  - name: prompt-engineering-guidance
-    type: skill
-    category: ai-llm
-    description: "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained gen..."
-    source: PENDING/prompt-engineering-guidance
-
-  - name: prompt-engineering-instructor
-    type: skill
-    category: ai-llm
-    description: "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle..."
-    source: PENDING/prompt-engineering-instructor
-
-  - name: prompt-engineering-outlines
-    type: skill
-    category: data-science-ml
-    description: "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt...."
-    source: PENDING/prompt-engineering-outlines
-
+    description: "Comprehensive prompt engineering guide: techniques, structured output (DSPy/Instructor/Outlines), caching, prompt library. Consolidates 10 skills."
+    source: IDETOOLS/skills/prompt-master
   - name: prompt-engineering
     type: skill
     category: ai-llm
     description: "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior."
     source: PENDING/prompt-engineering
-
-  - name: prompt-library
-    type: skill
-    category: ai-llm
-    description: "Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use when user needs prompt templates, role-..."
-    source: PENDING/prompt-library
 
   - name: protocol-reverse-engineering
     type: skill
@@ -5381,59 +4919,29 @@ skills:
     description: "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference."
     source: PENDING/pymc
 
-  - name: python-anti-patterns
-    type: skill
-    category: python
-    description: "Common Python anti-patterns to avoid. Use as a checklist when reviewing code, before finalizing implementations, or when debugging issues that might stem from known bad practices."
-    source: PENDING/python-anti-patterns
-
-  - name: python-background-jobs
-    type: skill
-    category: backend-api
-    description: "Python background job patterns including task queues, workers, and event-driven architecture. Use when implementing async task processing, job queues, long-running operations, or decoupling work fr..."
-    source: PENDING/python-background-jobs
-
-  - name: python-code-style
-    type: skill
-    category: code-review
-    description: "Python code style, linting, formatting, naming conventions, and documentation standards. Use when writing new code, reviewing style, configuring linters, writing docstrings, or establishing project..."
-    source: PENDING/python-code-style
-
   - name: python-configuration
     type: skill
     category: security
     description: "Python configuration management via environment variables and typed settings. Use when externalizing config, setting up pydantic-settings, managing secrets, or implementing environment-specific beh..."
     source: PENDING/python-configuration
 
-  - name: python-design-patterns
-    type: skill
-    category: backend-api
-    description: "Python design patterns including KISS, Separation of Concerns, Single Responsibility, and composition over inheritance. Use when making architecture decisions, refactoring code structure, or evalua..."
-    source: PENDING/python-design-patterns
-
-  - name: python-error-handling
-    type: skill
-    category: frontend-design
-    description: "Python error handling patterns including input validation, exception hierarchies, and partial failure handling. Use when implementing validation logic, designing exception strategies, handling batc..."
-    source: PENDING/python-error-handling
-
   - name: python-observability
     type: skill
     category: python
     description: "Python observability patterns including structured logging, metrics, and distributed tracing. Use when adding logging, implementing metrics collection, setting up tracing, or debugging production s..."
-    source: PENDING/python-observability
+    source: IDETOOLS/skills/python-master
 
+
+  - name: python-master
+    type: skill
+    category: python
+    description: "Comprehensive Python guide: design patterns, async programming, type safety, project structure, error handling, performance. Consolidates 11 skills."
+    source: IDETOOLS/skills/python-master
   - name: python-patterns
     type: skill
     category: python
     description: "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying."
     source: PENDING/python-patterns
-
-  - name: python-project-structure
-    type: skill
-    category: backend-api
-    description: "Python project organization, module architecture, and public API design. Use when setting up new projects, organizing modules, defining public interfaces with __all__, or planning directory layouts."
-    source: PENDING/python-project-structure
 
   - name: python-resilience
     type: skill
@@ -5441,36 +4949,18 @@ skills:
     description: "Python resilience patterns including automatic retries, exponential backoff, timeouts, and fault-tolerant decorators. Use when adding retry logic, implementing timeouts, building fault-tolerant ser..."
     source: PENDING/python-resilience
 
-  - name: python-resource-management
-    type: skill
-    category: frontend-design
-    description: "Python resource management with context managers, cleanup patterns, and streaming. Use when managing connections, file handles, implementing cleanup logic, or building streaming responses with accu..."
-    source: PENDING/python-resource-management
-
-  - name: python-type-safety
-    type: skill
-    category: python
-    description: "Python type safety with type hints, generics, protocols, and strict type checking. Use when adding type annotations, implementing generic classes, defining structural interfaces, or configuring myp..."
-    source: PENDING/python-type-safety
-
-  - name: qa-test-planner
-    type: skill
-    category: testing
-    description: "Generate comprehensive test plans, manual test cases, regression test suites, and bug reports for QA engineers. Includes Figma MCP integration for design validation."
-    source: PENDING/qa-test-planner
-
   - name: qms-audit-expert
     type: skill
     category: code-review
     description: "Senior QMS Audit Expert for internal and external quality management system auditing. Provides ISO 13485 audit expertise, audit program management, nonconformity identification, and corrective acti..."
-    source: PENDING/qms-audit-expert
+    source: IDETOOLS/skills/react-master
 
-  - name: quality-documentation-manager
+
+  - name: react-master
     type: skill
-    category: code-review
-    description: "Senior Quality Documentation Manager for comprehensive documentation control and regulatory document review. Provides document management system design, change control, configuration management, an..."
-    source: PENDING/quality-documentation-manager
-
+    category: frontend-design
+    description: "Comprehensive React guide: component patterns, hooks, state management, React Native, Server Components. Consolidates 8 skills."
+    source: IDETOOLS/skills/react-master
   - name: quality-manager-qmr
     type: skill
     category: security
@@ -5483,42 +4973,6 @@ skills:
     description: "ISO 13485 Quality Management System specialist for medical device companies. Provides QMS implementation, maintenance, process optimization, and compliance expertise. Use for QMS design, documentat..."
     source: PENDING/quality-manager-qms-iso13485
 
-  - name: rag-chroma
-    type: skill
-    category: ai-llm
-    description: "Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to productio..."
-    source: PENDING/rag-chroma
-
-  - name: rag-engineer
-    type: skill
-    category: data-science-ml
-    description: "Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, ..."
-    source: PENDING/rag-engineer
-
-  - name: rag-faiss
-    type: skill
-    category: ai-llm
-    description: "Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN sear..."
-    source: PENDING/rag-faiss
-
-  - name: rag-pinecone
-    type: skill
-    category: ai-llm
-    description: "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for produ..."
-    source: PENDING/rag-pinecone
-
-  - name: rag-qdrant
-    type: skill
-    category: ai-llm
-    description: "High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scala..."
-    source: PENDING/rag-qdrant
-
-  - name: rag-sentence-transformers
-    type: skill
-    category: data-science-ml
-    description: "Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, an..."
-    source: PENDING/rag-sentence-transformers
-
   - name: railway-docs
     type: skill
     category: document-processing
@@ -5530,54 +4984,6 @@ skills:
     category: frontend-design
     description: "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance pat..."
     source: PENDING/react-best-practices
-
-  - name: react-dev
-    type: skill
-    category: frontend-design
-    description: "This skill should be used when building React components with TypeScript, typing hooks, handling events, or when React TypeScript, React 19, Server Components are mentioned. Covers type-safe patter..."
-    source: PENDING/react-dev
-
-  - name: react-native-architecture
-    type: skill
-    category: frontend-design
-    description: "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecti..."
-    source: PENDING/react-native-architecture
-
-  - name: react-native-design
-    type: skill
-    category: frontend-design
-    description: "Master React Native styling, navigation, and Reanimated animations for cross-platform mobile development. Use when building React Native apps, implementing navigation patterns, or creating performa..."
-    source: PENDING/react-native-design
-
-  - name: react-patterns
-    type: skill
-    category: frontend-design
-    description: "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices."
-    source: PENDING/react-patterns
-
-  - name: react-state-management
-    type: skill
-    category: frontend-design
-    description: "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions."
-    source: PENDING/react-state-management
-
-  - name: react-ui-patterns
-    type: skill
-    category: frontend-design
-    description: "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states."
-    source: PENDING/react-ui-patterns
-
-  - name: react-useeffect
-    type: skill
-    category: frontend-design
-    description: "React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect and bet..."
-    source: PENDING/react-useeffect
-
-  - name: reasoningbank-agentdb
-    type: skill
-    category: ai-llm
-    description: "Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector database. Includes trajectory tracking, verdict judgment, memory distillation, and pattern recognition. Use when building..."
-    source: PENDING/reasoningbank-agentdb
 
   - name: reasoningbank-intelligence
     type: skill
@@ -5775,8 +5181,14 @@ skills:
     type: skill
     category: frontend-design
     description: "Analyze product screenshots to extract feature lists and generate development task checklists. Use when: (1) Analyzing competitor product screenshots for feature extraction, (2) Generating PRD/task..."
-    source: PENDING/screenshot-feature-extractor
+    source: IDETOOLS/skills/seo-master
 
+
+  - name: seo-master
+    type: skill
+    category: frontend-design
+    description: "Comprehensive SEO guide: technical SEO, content optimization, Core Web Vitals, structured data, Next.js SEO. Consolidates 3 skills."
+    source: IDETOOLS/skills/seo-master
   - name: screenshot
     type: skill
     category: general
@@ -5787,43 +5199,19 @@ skills:
     type: skill
     category: frontend-design
     description: "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product p..."
-    source: PENDING/scroll-experience
+    source: IDETOOLS/skills/security-master
 
-  - name: security-audit
+
+  - name: security-master
     type: skill
     category: security
-    description: ">"
-    source: PENDING/security-audit
-
+    description: "Comprehensive security guide: OWASP Top 10, threat modeling, secure coding, API security, dependency auditing, compliance. Consolidates 12 skills."
+    source: IDETOOLS/skills/security-master
   - name: security-best-practices
     type: skill
     category: frontend-design
     description: "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/r..."
     source: PENDING/security-best-practices
-
-  - name: security-compliance
-    type: skill
-    category: data-science-ml
-    description: "Guides security professionals in implementing defense-in-depth security architectures, achieving compliance with industry frameworks (SOC2, ISO27001, GDPR, HIPAA), conducting threat modeling and ri..."
-    source: PENDING/security-compliance
-
-  - name: security-ownership-map
-    type: skill
-    category: frontend-design
-    description: "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger..."
-    source: PENDING/security-ownership-map
-
-  - name: security-requirement-extraction
-    type: skill
-    category: data-science-ml
-    description: "Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases."
-    source: PENDING/security-requirement-extraction
-
-  - name: security-threat-model
-    type: skill
-    category: data-science-ml
-    description: "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the ..."
-    source: PENDING/security-threat-model
 
   - name: segment-cdp
     type: skill
@@ -5885,12 +5273,6 @@ skills:
     description: "World-class ML engineering skill for productionizing ML models, MLOps, and building scalable ML systems. Expertise in PyTorch, TensorFlow, model deployment, feature stores, model monitoring, and ML..."
     source: PENDING/senior-ml-engineer
 
-  - name: senior-prompt-engineer
-    type: skill
-    category: ai-llm
-    description: "World-class prompt engineering skill for LLM optimization, prompt patterns, structured outputs, and AI product development. Expertise in Claude, GPT-4, prompt design patterns, few-shot learning, ch..."
-    source: PENDING/senior-prompt-engineer
-
   - name: senior-qa
     type: skill
     category: ai-llm
@@ -5909,23 +5291,11 @@ skills:
     description: "Comprehensive security engineering skill for application security, penetration testing, security architecture, and compliance auditing. Includes security assessment tools, threat modeling, crypto i..."
     source: PENDING/senior-security
 
-  - name: seo-audit
-    type: skill
-    category: frontend-design
-    description: "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO..."
-    source: PENDING/seo-audit
-
   - name: seo-fundamentals
     type: skill
     category: productivity
     description: "SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles."
     source: PENDING/seo-fundamentals
-
-  - name: seo-optimizer
-    type: skill
-    category: database
-    description: "Search Engine Optimization specialist for content strategy, technical SEO, keyword research, and ranking improvements. Use when optimizing website content, improving search rankings, conducting key..."
-    source: PENDING/seo-optimizer
 
   - name: seo
     type: skill
@@ -6075,8 +5445,14 @@ skills:
     type: skill
     category: git-vcs
     description: "GitHub Spec-Kit integration for constitution-based spec-driven development. 7-phase workflow. Triggers: \"spec-kit\", \"speckit\", \"constitution\", \"specify\", \".specify/\", \"规格驱动开发\", \"需求规格\"."
-    source: PENDING/spec-kit-skill
+    source: IDETOOLS/skills/documentation-master
 
+
+  - name: documentation-master
+    type: skill
+    category: general
+    description: "Comprehensive documentation guide: README templates, API docs, ADRs, tech specs, quality management, tools. Consolidates 4 skills."
+    source: IDETOOLS/skills/documentation-master
   - name: speech
     type: skill
     category: ai-llm
@@ -6125,23 +5501,11 @@ skills:
     description: "Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation."
     source: PENDING/stride-analysis-patterns
 
-  - name: supabase-postgres-best-practices
-    type: skill
-    category: database
-    description: "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
-    source: PENDING/supabase-postgres-best-practices
-
   - name: swarm-orchestration
     type: skill
     category: ai-llm
     description: ">"
     source: PENDING/swarm-orchestration
-
-  - name: tailwind-design-system
-    type: skill
-    category: frontend-design
-    description: "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing..."
-    source: PENDING/tailwind-design-system
 
   - name: tailwind-patterns
     type: skill
@@ -6166,12 +5530,6 @@ skills:
     category: backend-api
     description: "Web search, content extraction, crawling, and research capabilities using Tavily API"
     source: PENDING/tavily-web
-
-  - name: tdd-workflow
-    type: skill
-    category: testing
-    description: "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle."
-    source: PENDING/tdd-workflow
 
   - name: team-communication-protocols
     type: skill
@@ -6215,18 +5573,18 @@ skills:
     description: "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks."
     source: PENDING/templates
 
-  - name: test-fixing
-    type: skill
-    category: testing
-    description: "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to ma..."
-    source: PENDING/test-fixing
-
   - name: testing-patterns
     type: skill
     category: testing
     description: "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle."
-    source: PENDING/testing-patterns
+    source: IDETOOLS/skills/testing-master
 
+
+  - name: testing-master
+    type: skill
+    category: testing
+    description: "Comprehensive testing guide: TDD, unit/integration/E2E with Playwright, patterns across JS/Python/Bash. Consolidates 15 testing skills."
+    source: IDETOOLS/skills/testing-master
   - name: threat-mitigation-mapping
     type: skill
     category: security
@@ -6305,12 +5663,6 @@ skills:
     description: ">-"
     source: PENDING/typescript-expert
 
-  - name: ui-design-system
-    type: skill
-    category: document-processing
-    description: "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design syst..."
-    source: PENDING/ui-design-system
-
   - name: unity-ecs-patterns
     type: skill
     category: frontend-design
@@ -6370,18 +5722,6 @@ skills:
     category: ai-llm
     description: "Unify 6+ memory systems into AgentDB with HNSW indexing for 150x-12,500x search improvements. Implements ADR-006 (Unified Memory Service) and ADR-009 (Hybrid Memory Backend)."
     source: PENDING/v3-memory-unification
-
-  - name: v3-performance-optimization
-    type: skill
-    category: frontend-design
-    description: "Achieve aggressive v3 performance targets: 2.49x-7.47x Flash Attention speedup, 150x-12,500x search improvements, 50-75% memory reduction. Comprehensive benchmarking and optimization suite."
-    source: PENDING/v3-performance-optimization
-
-  - name: v3-security-overhaul
-    type: skill
-    category: security
-    description: "Complete security architecture overhaul for claude-flow v3. Addresses critical CVEs (CVE-1, CVE-2, CVE-3) and implements secure-by-default patterns. Use for security-first v3 implementation."
-    source: PENDING/v3-security-overhaul
 
   - name: v3-swarm-coordination
     type: skill
@@ -6478,12 +5818,6 @@ skills:
     category: database
     description: "Web browser game development principles. Framework selection, WebGPU, optimization, PWA."
     source: PENDING/web-games
-
-  - name: web-performance-optimization
-    type: skill
-    category: database
-    description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance"
-    source: PENDING/web-performance-optimization
 
   - name: web-quality-audit
     type: skill
