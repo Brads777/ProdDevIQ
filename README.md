@@ -1,8 +1,24 @@
-# GODMODEDEV
+# MKT2700 — ProdDevIQ (Phase 1)
 
-The ultimate Claude Code IDE setup framework. One command to go from zero to a fully-configured AI development environment with Docker containers, a curated skill library, multi-agent orchestration, and best-practice defaults.
+**Spring 2026 | Product Design & Development | Northeastern University**
 
-## What This Is
+## Phase 1 Materials Archived
+
+The Phase 1 AI-Augmented Product Development Pipeline materials have been archived.
+
+If you need access to the Phase 1 lab files, please contact **Professor Scheller via Canvas**.
+
+---
+
+## Moving to Phase 2?
+
+Phase 2 (PRD to Prototype) uses a new repository with updated tools:
+
+**[ProdDevIQ2](https://github.com/Brads777/ProdDevIQ2)** — Download the Phase 2 lab files and follow the setup instructions on Canvas.
+
+---
+
+*© 2026 Brad Scheller · Northeastern University*
 
 GODMODEDEV is a bootstrap toolkit that sets up a complete Claude Code development environment including:
 
