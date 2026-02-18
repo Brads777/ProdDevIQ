@@ -1,0 +1,33 @@
+{
+  "_comment": "Feature tracker. Add one entry per feature from your PRD. Set 'passes' to true only when ALL acceptance criteria are met. Generate this using templates/context-generation-prompt.md.",
+  "features": [
+    {
+      "id": "F001",
+      "name": "[Feature name — e.g., User Authentication]",
+      "description": "[What this feature does in one sentence]",
+      "priority": "critical|high|medium|low",
+      "dependencies": [],
+      "acceptance_criteria": [
+        "[Criterion 1 — specific, testable statement]",
+        "[Criterion 2]"
+      ],
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "_example": true,
+      "id": "F002",
+      "name": "Create Invoice via Slash Command",
+      "description": "Users type /invoice in Slack with amount and client name to create an invoice",
+      "priority": "critical",
+      "dependencies": ["F001"],
+      "acceptance_criteria": [
+        "/invoice Acme $500 due Jan 30 creates an invoice record",
+        "Bot responds with a confirmation message including invoice ID",
+        "Invalid input returns a helpful error message"
+      ],
+      "passes": false,
+      "notes": "This is an example entry — replace with your own features"
+    }
+  ]
+}
