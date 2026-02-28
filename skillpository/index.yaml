@@ -8,18 +8,18 @@
 #   - Use /skills-import <name> to install from this registry
 #   - Use /skills-advisor "<task>" to find the right skill
 #
-# Updated: 2026-02-21 20:49
+# Updated: 2026-02-28
 
 catalog_version: "1.0"
 catalog_source: "IDETOOLS/catalog.md"
-total_skills: 913
+total_skills: 922
 total_agents: 231
 
 # ============================================================
 # SKILLS
 # ============================================================
 skills:
-  # --- ai-llm (58) ---
+  # --- ai-llm (60) ---
   - name: agent-agentic-payments
     type: skill
     category: ai-llm
@@ -376,6 +376,18 @@ skills:
     category: ai-llm
     description: "Unify 6+ memory systems into AgentDB with HNSW indexing for 150x-12,500x search improvements. Implements ADR-006 (Unified Memory Service) and ADR-009 (Hybrid Memory Backend)."
     source: IDETOOLS/skills/v3-memory-unification
+
+  - name: agentdb-optimization
+    type: skill
+    category: ai-llm
+    description: "Optimize AgentDB vector databases with quantization, HNSW indexing, LRU caching, and batch operations for 150x-12,500x performance improvements."
+    source: IDETOOLS/skills/agentdb-optimization
+
+  - name: reasoningbank-agentdb
+    type: skill
+    category: ai-llm
+    description: "Implement ReasoningBank adaptive learning with AgentDB vector backend, including trajectory tracking, verdict judgment, memory distillation, and experience replay for self-learning agents."
+    source: IDETOOLS/skills/reasoningbank-agentdb
 
   # --- backend-api (9) ---
   - name: agent-dev-backend-api
@@ -1105,7 +1117,13 @@ skills:
     source: IDETOOLS/skills/youtube-transcribe-skill
     tools: "Read, Write, Glob, Grep, Task, Bash(cat:*), Bash(ls:*), Bash(tree:*), Bash(yt-dlp:*), Bash(which:*), mcp__plugin_claude-code-settings_chrome__*"
 
-  # --- database (21) ---
+  # --- database (22) ---
+  - name: postgres-best-practices
+    type: skill
+    category: database
+    description: "Postgres performance optimization covering query tuning, connection management, RLS security, schema design, locking, and monitoring. Maintained by Supabase."
+    source: IDETOOLS/skills/postgres-best-practices
+
   - name: agent-migration-plan
     type: skill
     category: database
@@ -1517,7 +1535,7 @@ skills:
     source: IDETOOLS/skills/shadcn-ui
     tools: "Read, Write, Edit, Bash, Glob, Grep"
 
-  # --- document-processing (57) ---
+  # --- document-processing (59) ---
   - name: agent-docs-api-openapi
     type: skill
     category: document-processing
@@ -1867,7 +1885,19 @@ skills:
     description: "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with for..."
     source: IDETOOLS/skills/xlsx
 
-  # --- frontend-design (33) ---
+  - name: internal-comms
+    type: skill
+    category: document-processing
+    description: "Templates and guidelines for writing internal communications including 3P updates, newsletters, FAQ responses, status reports, and incident reports."
+    source: IDETOOLS/skills/internal-comms
+
+  - name: internal-comms-anthropic
+    type: skill
+    category: document-processing
+    description: "Anthropic-branded internal communications templates for 3P updates, newsletters, FAQ responses, status reports, and incident reports."
+    source: IDETOOLS/skills/internal-comms-anthropic
+
+  # --- frontend-design (36) ---
   - name: academic-assignment-authoring
     type: skill
     category: frontend-design
@@ -2069,6 +2099,24 @@ skills:
     category: frontend-design
     description: "Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and reusable component architecture. Use when building UI component libraries, designing component APIs, or implementing frontend design systems."
     source: IDETOOLS/skills/web-component-design
+
+  - name: brand-guidelines
+    type: skill
+    category: frontend-design
+    description: "Applies Anthropic brand colors (dark, light, orange, blue, green accents) and Poppins/Lora typography to artifacts for consistent visual identity."
+    source: IDETOOLS/skills/brand-guidelines
+
+  - name: brand-guidelines-anthropic
+    type: skill
+    category: frontend-design
+    description: "Anthropic-branded variant of brand-guidelines with copyright stamp. Applies official brand colors and typography to artifacts."
+    source: IDETOOLS/skills/brand-guidelines-anthropic
+
+  - name: claudekit-frontend-development
+    type: skill
+    category: frontend-design
+    description: "Comprehensive React/TypeScript frontend guidelines covering Suspense, lazy loading, useSuspenseQuery, MUI v7, TanStack Router, and feature-based file organization."
+    source: IDETOOLS/skills/claudekit-frontend-development
 
   # --- general (278) ---
   - name: 3d-games
@@ -4736,7 +4784,7 @@ skills:
     description: "Manage and trigger pre-built Zapier workflows and MCP tool orchestration. Use when user mentions workflows, Zaps, automations, daily digest, research, search, lead tracking, expenses, or asks to \"run\" any process. Also handles Perplexity-based resear..."
     source: IDETOOLS/skills/zapier-workflows
 
-  # --- scientific-biotech (80) ---
+  # --- scientific-biotech (81) ---
   - name: adaptyv
     type: skill
     category: scientific-biotech
@@ -5217,6 +5265,12 @@ skills:
     category: scientific-biotech
     description: "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery."
     source: IDETOOLS/skills/kdense-zinc-database
+
+  - name: latex-posters
+    type: skill
+    category: scientific-biotech
+    description: "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter with layout design, color schemes, multi-column formats, and figure integration."
+    source: IDETOOLS/skills/latex-posters
 
   # --- security (22) ---
   - name: agent-security-manager
