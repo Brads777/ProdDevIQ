@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-arch-system-design"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-arch-system-design/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-arch-system-design"
+description: "Agent skill for arch-system-design - invoke with $agent-arch-system-design"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

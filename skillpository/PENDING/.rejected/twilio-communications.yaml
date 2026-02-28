@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "twilio-communications"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/enterprise-communication/twilio-communications/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/twilio-communications"
+description: "Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA). Covers the full spectrum from simple notifications to complex IVR systems and multi-channel authentication. Critical focus on compliance, rate limits, and error handling. Use when: twilio, send SMS, text message, voice call, phone verification."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

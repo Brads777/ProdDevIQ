@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "fluidsim"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/fluidsim/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/fluidsim"
+description: "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral methods with FFT, HPC support, and comprehensive output analysis."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

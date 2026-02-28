@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "n8n-mcp-tools-expert"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert"
+description: "Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Needs manual review - auto-rejected in batch"

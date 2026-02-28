@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "timesfm-forecasting"
+type: skill
+source_repo: "K-Dense-AI/claude-scientific-skills"
+source_path: "scientific-skills/timesfm-forecasting/SKILL.md"
+source_url: "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/timesfm-forecasting"
+description: ">"
+discovered: "2026-02-28 00:00"
+label: "KDense Scientific"
+status: pending

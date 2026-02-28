@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "course-schedule-builder"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Build a semester week-by-week date schedule that maps course weeks to actual calendar dates,"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "course-schedule-builder"

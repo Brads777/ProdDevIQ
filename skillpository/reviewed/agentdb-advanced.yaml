@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "agentdb-advanced"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agentdb-advanced/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agentdb-advanced"
+description: "Master advanced AgentDB features including QUIC synchronization, multi-database management, custom distance metrics, hybrid search, and distributed systems integration. Use when building distributed AI systems, multi-agent coordination, or advanced vector search applications."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

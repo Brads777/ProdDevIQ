@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "test-detect"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/test-detect/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/test-detect"
+description: "Auto-detect testing framework and run relevant tests. Identifies Jest, Vitest, Playwright, Cypress, pytest, Go test, and others. Can run all tests, specific file tests, or generate basic tests for new code. Usage - /test-detect, /test-detect src/auth/login.ts, /test-detect generate src/utils.ts"
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

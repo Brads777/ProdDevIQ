@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "agentdb-vector-search"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agentdb-vector-search/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agentdb-vector-search"
+description: "Implement semantic vector search with AgentDB for intelligent document retrieval, similarity matching, and context-aware querying. Use when building RAG systems, semantic search engines, or intelligent knowledge bases."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

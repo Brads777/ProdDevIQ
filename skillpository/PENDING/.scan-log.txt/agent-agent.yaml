@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-agent"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-agent/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-agent"
+description: "Agent skill for agent - invoke with $agent-agent"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

@@ -1,0 +1,8 @@
+﻿# Reviewed item - migrated from vet report
+name: "iso-13485-certification"
+type: skill
+source_repo: "K-Dense-AI/claude-scientific-skills"
+category: code-review
+verdict: APPROVE_WITH_NOTES
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"

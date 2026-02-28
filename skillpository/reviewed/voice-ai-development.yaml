@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "voice-ai-development"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-research/voice-ai-development/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/voice-ai-development"
+description: "Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for transcription, ElevenLabs for synthesis, LiveKit for real-time infrastructure, and WebRTC fundamentals. Knows how to build low-latency, production-ready voice experiences. Use when: voice ai, voice agent, speech to text, text to speech, realtime voice."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Needs manual review - auto-rejected in batch"

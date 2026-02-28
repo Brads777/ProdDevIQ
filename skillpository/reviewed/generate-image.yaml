@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "generate-image"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/scientific/generate-image/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/generate-image"
+description: "Generate or edit images using AI models (FLUX, Gemini). Use for general-purpose image generation including photos, illustrations, artwork, visual assets, concept art, and any image that isn't a technical diagram or schematic. For flowcharts, circuits, pathways, and technical diagrams, use the scientific-schematics skill instead."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

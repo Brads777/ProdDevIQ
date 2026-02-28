@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "address-github-comments"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/productivity/address-github-comments/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/address-github-comments"
+description: "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

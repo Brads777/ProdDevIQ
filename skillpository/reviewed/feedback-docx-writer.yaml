@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "feedback-docx-writer"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Generate formatted Word documents containing structured grading feedback for students."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "feedback-docx-writer"

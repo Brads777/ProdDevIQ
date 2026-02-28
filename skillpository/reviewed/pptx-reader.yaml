@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "pptx-reader"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Extract and analyze content from PowerPoint presentations (.pptx files). Use this skill when"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "pptx-reader"

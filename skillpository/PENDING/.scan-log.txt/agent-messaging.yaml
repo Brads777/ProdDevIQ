@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-messaging"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-maestro/agent-messaging/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-maestro/agent-messaging"
+description: "Send and receive cryptographically signed messages between AI agents using the Agent Messaging Protocol (AMP). Use when the user asks to \"send a message to an agent\", \"check agent inbox\", \"message another agent\", \"reply to a message\", \"notify an agent\", or any inter-agent communication task."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

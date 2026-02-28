@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-agentic-payments"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-agentic-payments/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-agentic-payments"
+description: "Agent skill for agentic-payments - invoke with $agent-agentic-payments"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

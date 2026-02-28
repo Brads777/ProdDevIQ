@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "docx-generator"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Generate formatted Word documents (.docx) from structured content with proper styling,"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "docx-generator"

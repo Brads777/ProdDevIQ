@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "blockchain-developer"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/blockchain-web3/agents/blockchain-developer.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3/agents/blockchain-developer.md"
+description: "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations. Use PROACTIVELY for smart contracts, Web3 apps, DeFi protocols, or blockchain infrastructure."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

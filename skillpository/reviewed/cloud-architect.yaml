@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "cloud-architect"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/cicd-automation/agents/cloud-architect.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/cloud-architect.md"
+description: "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Masters serverless, microservices, security, compliance, and disaster recovery. Use PROACTIVELY for cloud architecture, cost optimization, migration planning, or multi-cloud strategies."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

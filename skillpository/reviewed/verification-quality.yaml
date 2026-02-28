@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "verification-quality"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/verification-quality/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/verification-quality"
+description: "Comprehensive truth scoring, code quality verification, and automatic rollback system with 0.95 accuracy threshold for ensuring high-quality agent outputs and codebase reliability."
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

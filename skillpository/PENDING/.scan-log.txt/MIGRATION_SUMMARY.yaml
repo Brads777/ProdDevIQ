@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "MIGRATION_SUMMARY"
+type: agent
+source_repo: "ruvnet/claude-flow"
+source_path: ".claude/agents/MIGRATION_SUMMARY.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.claude/agents/MIGRATION_SUMMARY.md"
+description: "Complete migration plan for converting command-based system to intelligent agent-based system"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

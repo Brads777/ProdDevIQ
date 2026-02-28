@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-architecture"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-architecture/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-architecture"
+description: "Agent skill for architecture - invoke with $agent-architecture"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

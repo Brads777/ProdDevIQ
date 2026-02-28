@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "github-actions-creator"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/github-actions-creator/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/github-actions-creator"
+description: "Use when the user wants to create, generate, or set up a GitHub Actions workflow. Handles CI/CD pipelines, testing, deployment, linting, security scanning, release automation, Docker builds, scheduled tasks, and any custom workflow for any language or framework."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

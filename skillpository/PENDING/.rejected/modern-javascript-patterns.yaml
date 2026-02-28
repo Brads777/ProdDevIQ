@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "modern-javascript-patterns"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/javascript-typescript/skills/modern-javascript-patterns/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/skills/modern-javascript-patterns"
+description: "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. Use when refactoring legacy code, implementing modern patterns, or optimizing JavaScript applications."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

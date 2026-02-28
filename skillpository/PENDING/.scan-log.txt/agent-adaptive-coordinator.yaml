@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-adaptive-coordinator"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-adaptive-coordinator/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-adaptive-coordinator"
+description: "Agent skill for adaptive-coordinator - invoke with $agent-adaptive-coordinator"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

@@ -1,0 +1,60 @@
+# Unified Orchestrator - Project Configuration
+# Generated: 2026-02-08T01:46:42Z
+# Project: GODMODEDEV
+
+# Project Information
+project_name: "GODMODEDEV"
+project_type: "cli"  # web-app, mobile-app, api, game, library, cli, other
+project_level: 3  # 0-4
+project_description: "Ultimate Claude Code IDE setup framework with Docker, Skillpository, and multi-agent orchestration"
+
+# Output Configuration
+output_folder: "docs"
+stories_folder: "docs/stories"
+
+# Language Settings
+communication_language: "English"
+document_output_language: "English"
+
+# Agent Configuration
+# Default model for specialist agents (sonnet recommended)
+default_agent_model: "sonnet"
+
+# Batch sizing for parallel delegation
+batch_sizing:
+  complex: 3-5      # Deep research, multi-step fixes
+  standard: 5-8     # Audits, updates, validations
+  simple: 8-12      # Version checks, format fixes
+  max_parallel: 4   # Maximum concurrent agents
+
+# Phase Gate Configuration
+# These are auto-set based on project_level during /init
+phase_gates:
+  specification:
+    product_brief: "required"
+    research: "optional"
+  planning:
+    prd: "required"
+    tech_spec: "optional"
+  architecture:
+    system_design: "required"
+    gate_check: "recommended"
+  implementation:
+    sprint_planning: "required"
+    tdd: "recommended"
+  review:
+    code_review: "required"
+    security_audit: "required"
+
+# Saga Configuration
+saga:
+  max_retries: 2
+  log_file: ".orchestrator/saga-log.yaml"
+
+# Optional: Project-specific settings
+# tech_stack:
+#   - "technology1"
+#   - "technology2"
+# repository_url: ""
+# team_size: 1
+# sprint_duration_days: 14

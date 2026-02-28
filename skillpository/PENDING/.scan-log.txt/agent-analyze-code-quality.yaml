@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-analyze-code-quality"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-analyze-code-quality/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-analyze-code-quality"
+description: "Agent skill for analyze-code-quality - invoke with $agent-analyze-code-quality"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

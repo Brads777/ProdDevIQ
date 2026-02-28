@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "syllabus-generator"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Generate a complete, professionally formatted course syllabus from a structured roadmap"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "syllabus-generator"

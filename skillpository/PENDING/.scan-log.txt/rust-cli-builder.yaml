@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "rust-cli-builder"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/rust-cli-builder/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/rust-cli-builder"
+description: "Plan and build production-ready Rust CLI tools using clap for argument parsing, with subcommands, config file support, colored output, and proper error handling. Uses interview-driven planning to clarify commands, input/output formats, and distribution strategy before writing any code."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

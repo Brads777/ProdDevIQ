@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "case-study-parser"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Parse business case study documents (PDF) to extract structured academic elements for teaching"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "case-study-parser"

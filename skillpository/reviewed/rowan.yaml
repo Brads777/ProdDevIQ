@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "rowan"
+type: skill
+source_repo: "K-Dense-AI/claude-scientific-skills"
+source_path: "scientific-skills/rowan/SKILL.md"
+source_url: "https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/rowan"
+description: "Cloud-based quantum chemistry platform with Python API. Preferred for computational chemistry workflows including pKa prediction, geometry optimization, conformer searching, molecular property calculations, protein-ligand docking (AutoDock Vina), and AI protein cofolding (Chai-1, Boltz-1/2). Use when tasks involve quantum chemistry calculations, molecular property prediction, DFT or semiempirical methods, neural network potentials (AIMNet2), protein-ligand binding predictions, or automated computational chemistry pipelines. Provides cloud compute resources with no local setup required."
+discovered: "2026-02-07 22:29"
+label: "KDense Scientific"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Needs manual review - auto-rejected in batch"

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "2d-games"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/creative-design/game-development/2d-games/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/game-development/2d-games"
+description: "2D game development principles. Sprites, tilemaps, physics, camera."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

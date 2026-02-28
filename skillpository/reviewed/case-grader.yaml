@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "case-grader"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Grade student case analysis submissions using a standardized rubric with structured feedback."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "case-grader"

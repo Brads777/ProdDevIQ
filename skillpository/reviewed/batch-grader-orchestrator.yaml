@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "batch-grader-orchestrator"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Orchestrate grading multiple student submissions in sequence through the full CasesIQ"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "batch-grader-orchestrator"

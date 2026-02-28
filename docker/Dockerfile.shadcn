@@ -1,0 +1,49 @@
+# shadcn/ui Development Environment
+# Pre-configured Next.js + shadcn/ui for component development and prototyping
+
+FROM node:25-bookworm-slim
+
+# System dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Create a Next.js project with shadcn/ui pre-configured
+# --yes skips all interactive prompts in create-next-app
+RUN npx --yes create-next-app@latest shadcn-workspace \
+    --yes \
+    --typescript \
+    --tailwind \
+    --eslint \
+    --app \
+    --src-dir \
+    --import-alias "@/*" \
+    --no-turbopack \
+    && mv shadcn-workspace/* . \
+    && mv shadcn-workspace/.[!.]* . 2>/dev/null; \
+    rmdir shadcn-workspace 2>/dev/null; true
+
+# Initialize shadcn/ui (--yes to skip prompts; toast replaced by sonner)
+RUN npx --yes shadcn@latest init -d \
+    && npx --yes shadcn@latest add --yes --overwrite \
+       button card dialog form input label textarea \
+       select checkbox switch tabs table badge avatar separator \
+       dropdown-menu command sheet popover tooltip alert alert-dialog \
+       accordion breadcrumb calendar collapsible hover-card navigation-menu \
+       pagination radio-group scroll-area slider sonner drawer resizable
+
+# Install additional common dependencies
+RUN npm install \
+    @tanstack/react-table \
+    react-hook-form \
+    @hookform/resolvers \
+    zod \
+    next-themes \
+    lucide-react
+
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]

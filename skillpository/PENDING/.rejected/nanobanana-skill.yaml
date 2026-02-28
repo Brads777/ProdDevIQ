@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "nanobanana-skill"
+type: skill
+source_repo: "feiskyer/claude-code-settings"
+source_path: "plugins/nanobanana-skill/skills/nanobanana-skill/SKILL.md"
+source_url: "https://github.com/feiskyer/claude-code-settings/tree/main/plugins/nanobanana-skill/skills/nanobanana-skill"
+description: "Generate or edit images using Google Gemini API via nanobanana. Triggers: \"nanobanana\", \"generate image\", \"create image\", \"edit image\", \"AI drawing\", \"图片生成\", \"AI绘图\", \"图片编辑\", \"生成图片\"."
+discovered: "2026-02-07 22:29"
+label: "Feiskyer Settings"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

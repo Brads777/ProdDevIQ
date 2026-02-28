@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "rubric-builder"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Build and customize grading rubrics with weighted criteria and configurable rating levels."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "rubric-builder"

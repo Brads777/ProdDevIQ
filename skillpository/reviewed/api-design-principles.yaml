@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "api-design-principles"
+type: skill
+source_repo: "wshobson/agents"
+source_path: "plugins/backend-development/skills/api-design-principles/SKILL.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/api-design-principles"
+description: "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

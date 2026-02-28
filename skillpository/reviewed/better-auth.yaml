@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "better-auth"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/better-auth/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/better-auth"
+description: "Implement authentication and authorization with Better Auth - a framework-agnostic TypeScript authentication framework. Features include email/password authentication with verification, OAuth providers (Google, GitHub, Discord, etc.), two-factor authentication (TOTP, SMS), passkeys/WebAuthn support, session management, role-based access control (RBAC), rate limiting, and database adapters. Use when adding authentication to applications, implementing OAuth flows, setting up 2FA/MFA, managing user sessions, configuring authorization rules, or building secure authentication systems for web applications."
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

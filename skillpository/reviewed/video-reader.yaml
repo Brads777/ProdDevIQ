@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "video-reader"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Extract and analyze content from video files including transcription, key frames, metadata,"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "video-reader"

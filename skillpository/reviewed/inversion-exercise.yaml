@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "inversion-exercise"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/problem-solving/inversion-exercise/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/problem-solving/inversion-exercise"
+description: "Flip core assumptions to reveal hidden constraints and alternative approaches - \"what if the opposite were true?"
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

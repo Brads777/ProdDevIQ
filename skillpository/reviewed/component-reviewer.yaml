@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "component-reviewer"
+type: agent
+source_repo: "davila7/claude-code-templates"
+source_path: ".claude/agents/component-reviewer.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/.claude/agents/component-reviewer.md"
+description: "Expert component reviewer for Claude Code Templates. Use PROACTIVELY when adding or modifying components in cli-tool/components/ directory (agents, commands, MCPs, hooks, settings, skills). Validates format, required fields, naming conventions, and security."
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

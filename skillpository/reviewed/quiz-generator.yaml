@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "quiz-generator"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Generate quiz questions from case study materials, course content, and learning objectives."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "quiz-generator"

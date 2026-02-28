@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "student-submission-parser"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Parse student case analysis submissions to extract their structure and content for grading."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "student-submission-parser"

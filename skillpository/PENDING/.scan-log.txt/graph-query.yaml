@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "graph-query"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/ai-maestro/graph-query/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-maestro/graph-query"
+description: "Query the code graph database to understand component relationships, dependencies, and change impact. Use when the user asks to \"find callers\", \"check dependencies\", \"what uses this\", \"show relationships\", \"find serializers\", or when reading code and needing to understand what depends on a component before modifications."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

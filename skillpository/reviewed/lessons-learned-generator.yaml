@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "lessons-learned-generator"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Generate comprehensive lessons learned documents from business case studies for student career preparation. Use this skill when a professor needs to create educational takeaways, key insights, career lessons, or transferable skills from a case study. Works with or without teacher notes. Triggers include requests for lessons learned, key takeaways, educational insights, career lessons, or study guides from business cases."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "lessons-learned-generator"

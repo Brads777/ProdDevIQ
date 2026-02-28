@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "rubric-scorer"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Score parsed student content against a rubric definition with per-criterion grades,"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "rubric-scorer"

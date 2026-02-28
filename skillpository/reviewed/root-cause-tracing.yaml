@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "root-cause-tracing"
+type: skill
+source_repo: "mrgoonie/claudekit-skills"
+source_path: ".claude/skills/debugging/root-cause-tracing/SKILL.md"
+source_url: "https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/debugging/root-cause-tracing"
+description: "Systematically trace bugs backward through call stack to find original trigger"
+discovered: "2026-02-07 22:29"
+label: "ClaudeKit Skills"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "pdf-content-extractor"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Extract structured content from PDF files including text, tables, images, and metadata."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "pdf-content-extractor"

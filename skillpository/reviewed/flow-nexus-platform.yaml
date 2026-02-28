@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "flow-nexus-platform"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/flow-nexus-platform/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/flow-nexus-platform"
+description: "Comprehensive Flow Nexus platform management - authentication, sandboxes, app deployment, payments, and challenges"
+discovered: "2026-02-07 22:29"
+label: "Ruvnet Claude Flow"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

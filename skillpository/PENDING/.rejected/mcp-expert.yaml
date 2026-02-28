@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "mcp-expert"
+type: agent
+source_repo: "davila7/claude-code-templates"
+source_path: ".claude/agents/mcp-expert.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/.claude/agents/mcp-expert.md"
+description: "Use this agent when creating Model Context Protocol (MCP) integrations for the cli-tool components system. Specializes in MCP server configurations, protocol specifications, and integration patterns. Examples: <example>Context: User wants to create a new MCP integration. user: 'I need to create an MCP for Stripe API integration' assistant: 'I'll use the mcp-expert agent to create a comprehensive Stripe MCP integration with proper authentication and API methods' <commentary>Since the user needs to create an MCP integration, use the mcp-expert agent for proper MCP structure and implementation.</commentary></example> <example>Context: User needs help with MCP server configuration. user: 'How do I configure an MCP server for database operations?' assistant: 'Let me use the mcp-expert agent to guide you through creating a database MCP with proper connection handling and query methods' <commentary>The user needs MCP configuration help, so use the mcp-expert agent.</commentary></example>"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Needs manual review - auto-rejected in batch"

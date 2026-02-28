@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "code-reviewer"
+type: agent
+source_repo: "anthropics/claude-code"
+source_path: "plugins/feature-dev/agents/code-reviewer.md"
+source_url: "https://github.com/anthropics/claude-code/tree/main/plugins/feature-dev/agents/code-reviewer.md"
+description: "Reviews code for bugs, logic errors, security vulnerabilities, code quality issues, and adherence to project conventions, using confidence-based filtering to report only high-priority issues that truly matter"
+discovered: "2026-02-07 22:26"
+label: "Anthropic Official"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

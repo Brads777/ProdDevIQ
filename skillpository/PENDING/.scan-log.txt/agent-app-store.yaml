@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-app-store"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-app-store/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-app-store"
+description: "Agent skill for app-store - invoke with $agent-app-store"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

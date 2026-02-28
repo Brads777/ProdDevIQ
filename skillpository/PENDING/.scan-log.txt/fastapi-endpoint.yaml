@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "fastapi-endpoint"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/web-development/fastapi-endpoint/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/web-development/fastapi-endpoint"
+description: "Plan and build production-ready FastAPI endpoints with async SQLAlchemy, Pydantic v2 models, dependency injection for auth, and pytest tests. Uses interview-driven planning to clarify data models, authentication method, pagination strategy, and caching before writing any code."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

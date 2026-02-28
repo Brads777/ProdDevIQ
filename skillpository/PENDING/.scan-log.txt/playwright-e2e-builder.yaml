@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "playwright-e2e-builder"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/playwright-e2e-builder/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/playwright-e2e-builder"
+description: "Plan and build comprehensive Playwright E2E test suites with Page Object Model, authentication state persistence, custom fixtures, visual regression, and CI integration. Uses interview-driven planning to clarify critical user flows, auth strategy, test data approach, and parallelization before writing any tests."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

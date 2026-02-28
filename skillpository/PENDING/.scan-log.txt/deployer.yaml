@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "deployer"
+type: agent
+source_repo: "davila7/claude-code-templates"
+source_path: ".claude/agents/deployer.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/.claude/agents/deployer.md"
+description: "Deploys www.aitmpl.com and/or app.aitmpl.com to Vercel production. Runs pre-deploy checks (git status, API tests, auth verification) and handles the full deploy pipeline safely. Use when the user asks to deploy the site, dashboard, or both."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "ab-test-setup"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/business-marketing/ab-test-setup/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/ab-test-setup"
+description: "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" or \"hypothesis.\" For tracking implementation, see analytics-tracking."
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

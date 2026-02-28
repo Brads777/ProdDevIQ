@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "test-driven-development"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/development/test-driven-development/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/test-driven-development"
+description: "Use when implementing any feature or bugfix, before writing implementation code"
+discovered: "2026-02-07 22:29"
+label: "davila7 Templates"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

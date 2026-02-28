@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "agent-authentication"
+type: skill
+source_repo: "ruvnet/claude-flow"
+source_path: ".agents/skills/agent-authentication/SKILL.md"
+source_url: "https://github.com/ruvnet/claude-flow/tree/main/.agents/skills/agent-authentication"
+description: "Agent skill for authentication - invoke with $agent-authentication"
+discovered: "2026-02-28 00:00"
+label: "Ruvnet Claude Flow"
+status: pending

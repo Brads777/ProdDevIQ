@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "best-practice-generator"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Generate exemplary case analysis documents that serve as grading benchmarks for business school case studies. Use this skill when a professor needs to create a model answer, best practice example, or A-grade reference analysis for a case study. Triggers include requests for best practice analysis, model answer, exemplary submission, grading benchmark, or A-grade example for any business case."
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "best-practice-generator"

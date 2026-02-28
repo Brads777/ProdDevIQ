@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "search-specialist"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/content-marketing/agents/search-specialist.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/content-marketing/agents/search-specialist.md"
+description: "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Handles competitive analysis and fact-checking. Use PROACTIVELY for deep research, information gathering, or trend analysis."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

@@ -1,0 +1,13 @@
+﻿# Discovered by skillpository-manager scan
+name: "incident-responder"
+type: agent
+source_repo: "wshobson/agents"
+source_path: "plugins/incident-response/agents/incident-responder.md"
+source_url: "https://github.com/wshobson/agents/tree/main/plugins/incident-response/agents/incident-responder.md"
+description: "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns. Handles critical outages, communication strategies, and continuous improvement. Use IMMEDIATELY for production incidents or SRE practices."
+discovered: "2026-02-07 22:26"
+label: "wshobson Agents"
+status: pending
+
+rejected: "2026-02-21 18:05"
+rejection_reason: "Automated batch reject - failed vetting"

@@ -1,0 +1,10 @@
+﻿# Discovered by skillpository-manager scan
+name: "commit-smart"
+type: skill
+source_repo: "davila7/claude-code-templates"
+source_path: "cli-tool/components/skills/git/commit-smart/SKILL.md"
+source_url: "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/git/commit-smart"
+description: "Analyze staged/unstaged changes and create semantic conventional commits with context about WHY, not just WHAT. Auto-detects commit type and scope from the diff. Supports optional type/scope arguments. Usage - /commit-smart, /commit-smart fix, /commit-smart refactor api"
+discovered: "2026-02-28 00:00"
+label: "davila7 Templates"
+status: pending

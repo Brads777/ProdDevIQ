@@ -1,0 +1,9 @@
+﻿# Reviewed item - CasesIQ custom skill
+name: "teacher-notes-parser"
+type: skill
+source_repo: "local/CasesIQ"
+category: ai-llm
+description: "Parse teacher/teaching notes (TN) documents that accompany business case studies to extract"
+reviewed: "2026-02-21 20:49"
+accepted: "2026-02-21 20:49"
+accepted_as: "teacher-notes-parser"
