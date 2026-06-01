@@ -1,0 +1,54 @@
+name: Weekly Follow-Ups Digest
+
+on:
+  schedule:
+    # Authoritative SMTP send — every Monday at 13:00 UTC
+    # (Claude Code on the web fires its MCP draft path at 14:00 UTC, redundantly)
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Parse and print without sending"
+        required: false
+        default: "false"
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run digest sender
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          DIGEST_TO: brads77@gmail.com
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python - <<'EOF'
+          from pathlib import Path
+          import sys, os
+          sys.path.insert(0, "scripts/followups")
+          import importlib.util
+          spec = importlib.util.spec_from_file_location("sd", "scripts/followups/send_digest.py")
+          sd = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(sd)
+          items = sd.parse_items(Path("FOLLOWUPS.md").read_text())
+          print(f"Dry run: {len(items)} open item(s)")
+          for it in items:
+              print(f"  #{it['number']} [{it['category']}] {it['title']}")
+          EOF
+          else
+            python scripts/followups/send_digest.py
+          fi
